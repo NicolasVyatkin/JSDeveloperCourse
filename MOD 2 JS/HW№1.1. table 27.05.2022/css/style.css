@@ -1,0 +1,40 @@
+:root {
+  font-weight: 700;  
+  color: gray;
+  font-size: 1vw;  
+}
+
+.header {  
+  width: 800px;
+  height: 200px;
+  outline: 4px solid red;
+  margin-top: 20px;
+}
+
+.main {
+  display: flex;
+  flex-direction: row; 
+}
+
+.nav {  
+  border-right: none;
+  width: 100px;
+  height: 400px;
+  outline: 4px solid orange;
+}
+
+.section {  
+  width: 700px;
+  height: 400px;
+  outline: 4px solid orange;
+  border-left: none;
+}
+
+.footer {
+  
+  width: 800px;
+  height: 200px;
+  outline: 4px solid gray;
+
+}
+

@@ -1,0 +1,113 @@
+div.right_triangle, div.square {
+  font-size: 2vw;
+  font-weight: 700;
+  color: green;
+  display: inline-block;
+  height: 3vw;
+  width: 3vw;
+  text-align: center; 
+  box-sizing: border-box;
+  padding: 0.5vw 0;
+}
+
+hr {
+  width: 50vw;
+  height: 2px;
+  background: yellow;
+  background-position-x: left;    
+  margin: 5px 0;
+  
+}
+
+div.trunk {
+  font-size: 2vw;
+  font-weight: 700;
+  color: #66360c;
+  display: inline-block;
+  height: 3vw;
+  width: 3vw;
+  text-align: center; 
+  box-sizing: border-box;
+  padding: 0.5vw 0;
+}
+
+
+div.text{
+  font-size: 2vw;
+  font-weight: 500;
+  font-style: italic;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  padding-left: 4vw;
+  box-sizing: border-box;
+  width: 20vw;
+  text-align: center;
+
+}
+div.text1{
+  font-size: 2vw;
+  font-weight: 500;
+  font-style: italic;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  padding-left: 15vw;
+  box-sizing: border-box;
+  width: 30vw;
+  text-align:justify;
+
+}
+div.text2{
+  font-size: 2vw;
+  font-weight: 500;
+  font-style: italic;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  padding-left: 15vw;
+  box-sizing: border-box;
+  width: 40vw;
+  text-align:justify;
+}
+div.text3{
+  font-size: 2vw;
+  font-weight: 500;
+  font-style: italic;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  padding-left: 5vw;
+  box-sizing: border-box;
+  width: 35vw;
+  text-align: center;
+  text-decoration: underline;
+}
+
+div.text4{
+  font-size: 2vw;
+  font-weight: 500;
+  font-style: italic;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  padding-left: 3vw;
+  box-sizing: border-box;
+  width: 39vw;
+  text-align: center; 
+}
+
+div.diamond, div.equil_triangle {
+  font-size: 2vw;
+  font-weight: 700;
+  color: green;
+  display: inline-block;  
+  text-align: center; 
+  box-sizing: border-box;
+  height: 2vw;
+  width: 2vw;  
+}
+div.blank {  
+  width: 1vw;
+  box-sizing: border-box;
+  background: yellow;
+  display: inline-block;
+  margin: 0;
+}
+
+

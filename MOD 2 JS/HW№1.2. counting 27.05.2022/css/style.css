@@ -1,0 +1,15 @@
+:root {
+  font-size: 4vw;    
+  font-weight: 700;
+  font-style: italic;
+  color: green;
+}
+
+hr {
+  height: 4px;
+  background: yellow;
+  width: 40vw;      
+  margin-left: 0;
+}
+
+
