@@ -1,0 +1,38 @@
+
+html {
+  font-weight: 700;
+  font-style: italic;
+  box-sizing: border-box;  
+  text-align: center;
+  font-size: 1em;    
+}
+
+.rounds{
+  width: 15vw;
+  height: 7vw;
+  font-size: 1vw;
+  font-weight: 500;
+  font-style: italic;
+  border-radius: 50%;
+  background: yellowgreen;
+  box-shadow: 0 0 30px green;
+  margin: 0 auto;
+}
+
+.roun{
+  background: yellow;
+  /*width: 100px;
+  height: 100px;*/
+  border-radius: 50%;
+  display: inline-flex;
+  box-shadow: 0 0 20px green;
+  justify-content: space-between;
+  margin: 10px;  
+  
+}
+
+.num{
+  position: relative;
+  top: 40%;
+  left: 40%;  
+}
