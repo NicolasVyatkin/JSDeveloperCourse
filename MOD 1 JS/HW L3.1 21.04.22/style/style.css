@@ -1,0 +1,197 @@
+body {  
+  width: 1440px;
+}
+.line {
+  width: 402px;
+  border-bottom: 5px solid #3E45E8;
+}
+.heading {
+  min-height: 110px;
+  max-height: 110px;
+  text-align: center;
+  color: #3E45E8;
+  font-size: 48px;
+  font-weight: 400;
+  padding: 25px 404px 31px 488px;
+  box-sizing: border-box;
+  font-family: 'Marcellus SC', serif;
+}
+.heading-span {
+  color: yellow;
+  font-family: 'Marcellus SC', serif;
+}
+.baner-top {
+  font-family: 'Inika', serif;
+  height: 803px;
+  background-image: url(../img/image\ 1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 206px;
+  box-sizing: border-box;
+  padding-left: 80px;
+}
+.baner-top-content {
+  font-family: 'Inika', serif;  
+  box-sizing: border-box;
+  color: white;  
+  font-size: 48px;
+  font-weight: 700;
+  padding-left: 38px;
+  background-repeat: no-repeat;
+  background-image: url(../img/Screenshot_3.jpg);
+  height: 272px;
+  width: 80%;
+}
+.locations {
+  font-family: 'Inika', serif;
+  font-size: 48px;
+  font-weight: 700;
+  padding: 0 80px;  
+}
+.cards {
+  font-family: 'Inika', serif;
+  width: 29%;
+  color: black;
+  display: inline-block;
+  border: 1px solid white;
+  overflow: hidden;
+  border-radius: 9%;
+  box-shadow: 0px 0px 100px grey;
+  vertical-align: middle;
+}
+.cardimage {
+  width: 100%;
+}
+.card_margin {
+  margin: 4.5%;
+}
+.card_title {
+  font-family: 'Inika', serif;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 10px;
+  box-sizing: border-box;
+  color: #1E8DF2;
+  padding-left: 10px;
+}
+.card_filling {
+  font-family: 'Inika', serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #E8C23E;
+  padding: 10px 0 60px 10px;
+}
+.victoryucraine {
+  font-family: 'Inika', serif;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  display: inline-block;
+  padding: 41px 334px 41px 294px;
+  width: 812px;
+}
+.linet {
+  display: inline-block;
+    text-align: center;
+    width: 402px;
+    border-bottom: 5px solid #3E45E8;
+    margin: 10px;
+}
+.btndonate {
+  border: 2px green;
+}
+section.donate button {
+  font-family: 'Inika', serif;
+  color: white;
+  background-color: #2A61F0;
+  text-shadow: -1px 1px #417cb8;
+  border: none;
+  font-size: 64px;
+  font-weight: 700;
+  display: inline-block;
+  padding: 10px 92px 10px 93px;
+  cursor: pointer;
+  min-width: 300px;
+  position: relative;
+  left: 33%;
+  } 
+  .bottom {
+    min-height: 50px;
+    max-height: 110px;
+    text-align: center;
+    color: #3E45E8;
+    font-size: 48px;
+    font-weight: 400;    
+    box-sizing: border-box;     
+  }
+  .bottom-span {
+    color: yellow;
+    font-family: 'Marcellus SC', serif;
+  }
+  .contacts {
+    font-family: 'Marcellus SC', serif;
+    background-color: #2F4A4B;
+    height: 320px;
+    margin-top: 21px;
+    box-sizing: border-box;    
+    font-size: 36px;
+    font-weight: 400;    
+  }
+  .email {
+    color: #A89D9D;
+    text-align: center;
+    display: block;
+  }
+  .tel {
+    color: #A89D9D;
+    text-align: center;
+    display: block;
+  }
+  .social {
+    font-size: 0;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .netsi {    
+    width: 4%;
+    color: black;
+    display: inline-block;
+    border: 1px solid red;
+    overflow: hidden;
+    border-radius: 100%;    
+    vertical-align: middle;
+  }
+  .netst {    
+    width: 4%;
+    color: black;
+    display: inline-block;
+    border: 1px solid red;
+    overflow: hidden;
+    border-radius: 100%;    
+    vertical-align: middle;
+    margin: 0 30px;
+  }
+  .netsf {    
+    width: 4%;
+    color: black;
+    display: inline-block;
+    border: 1px solid red;
+    overflow: hidden;
+    border-radius: 100%;    
+    vertical-align: middle;
+    margin: 0 30px 0 0px;
+  }
+  .netstg {    
+    width: 4%;
+    color: black;
+    display: inline-block;
+    border: 1px solid red;
+    overflow: hidden;
+    border-radius: 100%;    
+    vertical-align: middle;
+  }
+  .messenger {
+    width: 100%;
+    height: 100%;
+  }
+   

@@ -1,0 +1,131 @@
+body {  
+  width: 1440px;
+  background-color: #E5E5E5;;
+}
+.heading1 {
+  width: 39%;
+  display: inline-block;  
+}
+.heading2 {
+  width: 39%;
+  display: inline-block;  
+  margin-left: 100px;
+}
+.flag_line1 {
+  margin-top: 28%;
+  box-sizing: border-box;
+}
+.flag_line {
+  margin-top: 10%;
+  box-sizing: border-box;
+}
+.heading3 {
+  width: 116%;
+  display: inline-flex;  
+  margin-left: 90%;
+  margin-top: -37%;
+  vertical-align: top;
+}
+.flagsq {
+  width: 512px;
+  height: 512px;  
+  background-color: #FFD84B;
+  background-image: url(../img/Blue2.png);
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 20px;  
+}
+.flagsq2 {
+  width: 512px;
+  height: 512px;  
+  background-color: #FFD84B;
+  background-image: url(../img/Blue1.png);
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  display: inline-block;    
+  margin: 20px;
+}
+.img-cener {
+  text-align: center;
+  padding-top: 29%;
+  box-sizing: border-box;
+  display: block;
+}
+.img-left {
+  text-align: start;
+  padding-top: 12%;
+  box-sizing: border-box;
+  display: inline-block;
+}
+.img-right {
+  text-align: end;
+    padding-top: 25%;
+    box-sizing: border-box;
+    display: block;
+}
+.flaground {
+  width: 512px;
+  height: 512px;  
+  background-color: #FFD84B;
+  background-image: url(../img/Blue2.png);
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  display: inline-block;
+  text-align: center;  
+  border-radius: 100%;
+  overflow: visible;
+  margin: 20px;
+}
+.flaground1 {
+  width: 512px;
+  height: 512px;  
+  background-color: #FFD84B;
+  background-image: url(../img/Blue1.png);
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  display: inline-block;
+  text-align: center;  
+  border-radius: 100%;
+  overflow: visible;
+  margin: 20px;
+}
+.flagrblack {
+  width: 512px;
+  height: 512px;  
+  background-color: black;
+  background-image: url(../img/Vector.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  box-sizing: border-box;
+  display: inline-block;
+  text-align: center;
+  margin: 20px;
+}
+.dia_1 {
+  margin-top: 72%;
+  box-sizing: border-box;
+}
+.flaginline {
+  width: 512px;
+  height: 70px;    
+  box-sizing: border-box;
+  display: inline-block;   
+}
+.dia_2 {
+  margin-top: 5%;
+  margin-left: 5%;
+  box-sizing: border-box;
+  text-align: left;
+}
+.dia_3 {
+  margin-top: 5%;  
+  box-sizing: border-box;
+  text-align: left;
+}
+.dia_4 {
+  margin-top: 5%;
+  padding-left: 57%;
+  box-sizing: border-box;
+  text-align: right;
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HW 19.04.22</title>
+
+    <style>
+
+      .page {
+        width: 1024px;
+        height: 3600px;
+        background-color:aliceblue;        
+      }
+
+      body {
+        margin: 0px;
+      }
+
+      .heading_center {        
+        font-weight:bold;        
+        text-align: center;         
+      }
+
+      .heading_right {        
+        font-weight:bold;        
+        display:inline-block;
+        margin: 15px;       
+      }
+
+      .heading_left {        
+        font-weight:bold;                    
+        display: block;
+        text-align: right;
+      }
+
+      .text_right {        
+        display:inline-block;
+        margin: 0 15px;
+      }
+
+      .text_centered {        
+        display:block;        
+        text-align: center;
+        margin: 0 15px;
+      }
+
+      .img_full {
+        text-align: center;
+      }
+
+      .img_centered {
+        text-align: center;
+      }
+
+      .img_right {
+        text-align: right;
+        display: inline;
+        margin: 0 15px;
+      }
+
+    </style>
+</head>
+
+<body>
+  <div class="page">
+    <div>
+      <h3 class="heading_right">Full width image with caption</h3>
+        <div class="img_full">
+          <img src="./imeges/Full width image with caption text.jpg" alt="Full width image with caption text" title="Full width image with caption text">
+        </div>      
+      <p class="text_right">Carrot cake chupa chups gummi bears sweet fruitcake gummi bears sweet roll marzipan.</p>    
+    </div>
+
+    <div>
+      <h3 class="heading_center">Full width image with caption</h3>
+      <div class="img_full">
+        <img src="./imeges/Full width image with caption without.jpg" alt="Full width image with caption without" title="Full width image with caption without">
+      </div>
+    </div>
+
+    <div>
+      <h3 class="heading_left">Centered image with caption</h3>
+        <div class="img_centered">
+          <img src="./imeges/Centered image with caption text.jpg" alt="Centered image with caption text" title="Centered image with caption text">
+        </div>
+      <p class="text_centered">Carrot cake chupa chups gummi bears sweet fruitcake gummi bears sweet roll marzipan.</p>
+    </div>
+
+    <div>
+      <h3 class="heading_center">Centered image with caption</h3>
+        <div class="img_centered">
+          <img src="./imeges/Centered image with caption without.jpg" alt="Centered image with caption without" title="Centered image with caption without">
+        </div>
+    </div>
+
+    <div>
+      <h3 class="heading_right">Images with horizontal scroll</h3>
+        <div class="img_centered">
+          <img src="./imeges/Images with horizontal scroll.jpg" alt="Images with horizontal scroll" title="Images with horizontal scroll">
+        </div>      
+      <p class="text_right">An example of a wide image that may require horizontal scroll depending on device width.</p>
+    </div>
+
+    <div>
+      <h3 class="heading_center">Screenshots</h3>
+        <div class="img_right">
+          <img src="./imeges/Screenshot.jpg" alt="Screenshot" title="Screenshot">
+        </div>
+    </div>
+
+    <div>
+      <h3 class="heading_left">Circular images</h3>
+        <div class="img_right">
+          <img src="./imeges/Circular images.jpg" alt="Circular images" title="Circular images">
+        </div>      
+    </div>
+
+  </div>
+
+</body>
+
+</html>
