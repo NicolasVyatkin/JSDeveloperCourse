@@ -1,0 +1,1526 @@
+:root{
+  /**font-size: 10px;**/
+  /**background-color: beige;**/
+  background-color: #FFFFFF;
+  width: 100vw;  
+  font-family: 'Rosario', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+body {  
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+  width: 99.1vw;
+  padding: 0;
+  margin: 0;
+}
+.heading_top > ul{  
+  background-color: black;
+  color: #FFFCFC;  
+  font-weight: bold;
+  font-style: italic;  
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  margin: 0 auto;  
+  width: 87vw;
+  height: 7vw;
+  box-sizing: border-box; 
+
+}
+li.topline > a {
+  text-decoration: none;
+  color: white;
+
+}
+.heading_top{
+  display: inline-flex;
+  position: sticky;
+  z-index: 27;
+  top: 0;
+  left: 0;
+  width: 99.1vw;
+  height: 7vw; 
+}
+
+.heading_top li{
+  list-style: none;
+  padding-top: 2.2vw;
+  box-sizing: border-box;
+  padding-right: 5%;
+  font-size: 1.67vw;
+}
+.heading_top > a:first-of-type{
+  background: url(../img/logo.svg);
+  background-repeat: no-repeat;
+  width: 13vw;   
+  background-size: cover;
+  height: 7vw;  
+}
+
+.gallery, .gallery > div, .gallery > div > img{
+  display: flex;  
+}
+.gallery > div{
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.gallery{
+  margin: 2.4vw 3.6vw;
+  justify-content: space-between;
+}
+.colum1, .colum4{
+  padding-top: 5vw;  
+}
+.columserv2, .columserv1{
+  font-weight: bold;
+  font-style: italic;
+  font-size: 2.5vw;
+  color: black;
+  text-align: center;   
+  display: flex;
+  flex-direction: column;
+  height: 25vw;
+}
+
+.galeryimg5, .galeryimg10{
+  margin-top: 2vw;
+}
+.galeryimg3, .galeryimg11{
+  height: 20vw;
+  margin-top: 2vw;
+}
+.galeryimg2{
+  height: 95%;  
+}
+
+.masters {
+  position: relative;
+}
+
+.masters img {
+  width: 20.8vw;
+}
+
+.masters:after {
+  content: '';
+  width: 20.8vw;
+  height: 95%;
+  position: absolute;
+  top: 0; left: 0;
+  border-radius: 2vw;  
+  overflow: hidden;
+  background-color: rgba(0,0,0,0.6);
+}
+
+.masters:nth-last-of-type(1):active::after {
+  content: "James";
+  width: 20.8vw;
+  height: 22%;
+  position: absolute;
+  top: 73%; left: 0;  
+  border-radius: 2vw;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  overflow: hidden;
+  background-color: rgba(163, 83, 10, 0.7);
+  transition: all 2s;
+  color: #FFFAFA;
+  font-size: 2.5vw;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 2.5vw;
+  box-sizing: border-box;
+
+}
+.masters:nth-last-of-type(2):active::after {
+  content: "Ryan";
+  width: 20.8vw;
+  height: 22%;
+  position: absolute;
+  top: 73%; left: 0;  
+  border-radius: 2vw;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  overflow: hidden;
+  background-color: rgba(163, 83, 10, 0.7);
+  transition: all 2s;
+  color: #FFFAFA;
+  font-size: 2.5vw;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 2.5vw;
+  box-sizing: border-box;
+}
+.masters:nth-last-of-type(3):active:after {
+  content: "Jason";
+  width: 20.8vw;
+  height: 22%;
+  position: absolute;
+  top: 73%; left: 0;  
+  border-radius: 2vw;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  overflow: hidden;
+  background-color: rgba(163, 83, 10, 0.7);
+  transition: all 2s;
+  color: #FFFAFA;
+  font-size: 2.5vw;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 2.5vw;
+  box-sizing: border-box;
+}
+.masters:nth-last-of-type(4):active::after {
+  content: "Meredith";
+  width: 20.8vw;
+  height: 22%;
+  position: absolute;
+  top: 73%; left: 0;  
+  border-radius: 2vw;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  overflow: hidden;
+  background-color: rgba(163, 83, 10, 0.7);
+  transition: all 2s;
+  color: #FFFAFA;
+  font-size: 2.5vw;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 2.5vw;
+  box-sizing: border-box;
+}
+
+  
+.galeryimg1, .galeryimg6{
+  width: 19vw;
+  padding-top: 5vw;
+}
+.galeryimg5, .galeryimg3, .galeryimg10, .galeryimg11{
+  width: 25vw;
+}
+.servises{
+  display: flex;
+  justify-content: space-between;
+  width: 99.1vw;
+}
+.servback{
+  background: url(../img/pexels-cottonbro-3998389\ 1BackGroServ.png);
+  width: 48vw;
+  height: 50vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 2vw;
+  box-sizing: border-box; 
+}
+.columserv1{  
+  margin-left: 3.6vw;
+  width: 25vw;
+}
+.columserv2{  
+  margin-left: 3.6vw;
+  width: 25vw;
+}
+.columserv2 > div:last-of-type{
+  padding-top: 2.7vw;
+  
+}
+.columserv1 > div:last-of-type{
+  padding-top: 2.7vw;   
+}
+section.team {
+  margin-top: 10vw;
+  margin-left: 3.125vw;
+  margin-right: 3.65vw;
+  margin-bottom: 2.6vw;
+}
+section.team div:first-of-type{
+  font-size: 4.95vw;
+  font-weight: bold;
+  text-transform: capitalize;
+  text-align: center;  
+}
+section.team div:last-of-type{
+  display: flex;
+  justify-content: space-between;  
+}
+section.team > div:last-of-type{
+  margin-top: 2.6vw;
+}
+  
+section.contactus > div{
+  display: flex;  
+  justify-content: space-between;
+}
+section.contactus{  
+  width: 99.1vw;
+  display: flex;
+  justify-content: space-between;  
+  padding-left: 6%;
+  padding-right: 6%;
+  box-sizing: border-box;
+}
+
+.table, tr, td{
+  background: #E5E5E5;  
+  border-spacing: 0px;  
+}
+.contactform{  
+  border-spacing: 0px; 
+  margin-top: 1.9vw;
+  width: 48vw;
+  height: 33vw;
+}
+section.contactus div:first-of-type{
+  font-size: 3.33vw;
+  font-weight: bold;  
+  font-style: italic;
+  text-align: center;   
+}
+section.contactus > div > div:last-of-type{
+  width: 31vw;
+  height: 100%;
+}  
+
+section.contactus > div > div > div{
+  width: 41vw;     
+}
+section.contactus div.cont{
+  width: 99.1vw;
+}
+ 
+section.contactus iframe{ 
+  width: 100%;
+  height: 100%;
+}
+.sel1 {
+  height: 8.33vw;  
+  border-top-width: 1.82vw;
+  border-bottom-width: 2.34vw;  
+}
+.sel2 {
+  height: 8.33vw;  
+  border-top-width: 1.82vw;
+  border-bottom-width: 2.34vw;  
+}
+.sel3 {
+  height: 14.58vw;  
+}
+.namelinein, .emaillinein, .messagelinein{
+  font-size: 1.67vw;
+  font-weight: bold;
+  padding-left: 0.52vw;
+  
+}
+.namelinein{
+  height: 4.17vw;
+  width: auto;
+  margin: 1.51vw 1.82vw;
+
+}
+.emaillinein{
+  height: 4.17vw;
+  width: auto;
+  margin: 1.51vw 1.82vw;
+
+}
+.messagelinein{
+  height: 10.94vw;
+  width: 92%;   
+  padding-left: 0.52vw;
+  text-overflow: ellipsis;
+  scroll-behavior: auto;
+}
+footer li{
+  list-style: none;
+  font-size: 1.56vw;
+  font-weight: bold;  
+  font-style: italic;
+  text-align: center;
+  
+}
+footer{
+  margin-top: 5.21vw;
+  margin-right: 9.375vw;
+  margin-left: 9.375vw;
+}
+.contacts{
+  display: flex;
+  justify-content: space-between;
+}
+footer li.inst::before{
+  content: '';
+  background: url(../img/pngwing\ 1.svg) no-repeat;
+  height: 1.7vw;
+  width: 1.7vw;
+  background-size: cover;
+  display: inline-block;
+  vertical-align: bottom;
+  margin-right: 0.78vw;
+  margin-left: 0.25vw;   
+}
+footer li.face::before{
+  content: '';
+  background: url(../img/pngwing\ 2.svg) no-repeat;
+  height: 1.9vw;
+  width: 1.9vw;
+  background-size: cover;
+  display: inline-block;
+  vertical-align: bottom;
+  margin-right: 0.78vw;  
+}
+footer li.twit::before{
+  content: '';
+  background: url(../img/pngwing\ 3.svg) no-repeat;
+  height: 1.7vw;
+  width: 1.7vw;
+  background-size: cover;
+  display: inline-block;
+  vertical-align: bottom;
+  margin-right: 0.78vw;
+  margin-left: 0.25vw;  
+}
+li.face, li.twit, li.inst{
+  text-align: left;
+  padding-left: 2.6vw;
+  text-decoration: none;
+  color: black;
+}
+li.face > a, li.twit > a, li.inst > a, li.email > a, li.tel > a {
+  text-decoration: none;
+  color: black;
+}
+
+.HairStylingCard, .ShaveCard, .BeardCard, .StreigCard{
+  height: 25vw;
+  
+  box-sizing: border-box;
+}
+section.servises > div > div img{
+  width: 86%;
+}
+
+.sel1 {
+  width: 30%;
+}
+.sel2{
+  width: 40%;
+}
+
+.HairStylingCard{
+  animation: round1 10s infinite;
+  position: relative;
+}
+@keyframes round1 {
+  from,
+  to{
+    animation-delay: 1s;
+  }
+  25%{    
+    transform: translatex(26.6vw) translatey(0);
+  }
+  50%{
+    transform: translatex(26.6vw) translatey(26.1vw);
+  }
+  75%{
+    transform: translatex(0) translatey(26.1vw);    
+  }
+  100%{
+    transform: translatex(0) translatey(0);    
+  }
+  
+}
+.ShaveCard{
+  animation: round2 10s infinite;
+  position: relative;
+}
+@keyframes round2 {
+  from,
+  to{
+    animation-delay: 2s;
+  }
+  25%{    
+    transform: translatex(0) translatey(-26.1vw);
+  }
+  50%{
+    transform: translatex(26.6vw) translatey(-26.1vw);
+  }
+  75%{
+    transform: translatex(26.6vw) translatey(0);    
+  }
+  100%{
+    transform: translatex(0) translatey(0);    
+  }
+  
+}
+.BeardCard{
+  animation: round3 10s infinite;
+  position: relative;
+}
+@keyframes round3 {
+  from,
+  to{
+    animation-delay: 3s;
+  }
+  25%{    
+    transform: translatex(0) translatey(26.1vw);
+  }
+  50%{
+    transform: translatex(-26.6vw) translatey(26.1vw);
+  }
+  75%{
+    transform: translatex(-26.6vw) translatey(0);    
+  }
+  100%{
+    transform: translatex(0) translatey(0);    
+  }  
+
+}
+.StreigCard{
+  animation: round4 10s infinite;
+  position: relative;
+}
+@keyframes round4 {
+  from,
+  to{
+    animation-delay: 4s;
+  }
+  25%{    
+    transform: translatex(-26.6vw) translatey(0);
+  }
+  50%{
+    transform: translatex(-26.6vw) translatey(-26.1vw);
+  }
+  75%{
+    transform: translatex(0) translatey(-26.1vw);    
+  }
+  100%{
+    transform: translatex(0) translatey(0);    
+  }
+  
+}
+.colum1{
+  animation: cardposition1 2s 1;
+  position: relative;
+  animation-delay: 1s;  
+  animation-fill-mode: both;
+
+}
+@keyframes cardposition1 {
+  from,  
+  to{    
+  }
+  0%{
+    transform: translatex(-100vw) translatey(0);
+  }
+  100%{
+    transform: translatex(0) translatey(0);    
+  }  
+}
+.colum2{
+  animation: cardposition2 2s 1;
+  position: relative;    
+}
+@keyframes cardposition2 {
+  from,
+  to{    
+  }
+  0%{
+    transform: translatex(-100vw) translatey(0);
+  }
+  100%{
+    transform: translatex(0) translatey(0);    
+  }  
+}
+.colum3{
+  animation: cardposition3 2s 1;
+  position: relative;    
+}
+@keyframes cardposition3 {
+  from,
+  to{    
+  }
+  0%{
+    transform: translatex(100vw) translatey(0);
+  }
+  100%{
+    transform: translatex(0) translatey(0);    
+  }  
+}
+.colum4{
+  animation: cardposition4 2s 1;
+  position: relative;
+  animation-delay: 1s;
+  animation-fill-mode: both;  
+}
+@keyframes cardposition4 {
+  from,
+  to{    
+  }
+  0%{
+    transform: translatex(100vw) translatey(0);
+  }
+  100%{
+    transform: translatex(0) translatey(0);    
+  }  
+}
+
+/*****НАВШГАЦІЙНЕ МЕНЮ****/
+.sidenav {
+  /**height: 100%;**/
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 7vw;
+  right: 0;
+  background-color: lightgray;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 4vw;
+  padding-bottom: 2vw;
+  border-bottom-right-radius: 2vw;
+  border-bottom-left-radius: 2vw;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 20px;
+  text-decoration: none;
+  font-size: 1.67vw;
+  color: black;
+  display: block;
+  transition: 0.5s;
+}
+
+.sidenav a:hover {
+  color: black;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 5px;
+  font-size: 1.67vw;
+  margin-left: 50px;
+}
+
+.sidenav a:nth-of-type(2)::before{
+  content: '';
+  background: url(../img/nav/compassapoint.svg) no-repeat;
+  height: 2vw;
+  width: 2vw;
+  background-size: cover;
+  display: inline-block;
+  vertical-align: bottom;
+  margin-right: 0.78vw;
+  margin-left: 0.25vw;  
+}
+
+.sidenav a:nth-of-type(3)::before{
+  content: '';
+  background: url(../img/nav/camera\ ongaler.svg) no-repeat;
+  height: 2vw;
+  width: 2vw;
+  background-size: cover;
+  display: inline-block;
+  vertical-align: bottom;
+  margin-right: 0.78vw;
+  margin-left: 0.25vw;  
+}
+
+.sidenav a:nth-of-type(4)::before{
+  content: '';
+  background: url(../img/nav/scissors\ toolserv2.svg) no-repeat;
+  height: 2vw;
+  width: 2vw;
+  background-size: cover;
+  display: inline-block;
+  vertical-align: bottom;
+  margin-right: 0.78vw;
+  margin-left: 0.25vw;  
+}
+.sidenav a:nth-of-type(5)::before{
+  content: '';
+  background: url(../img/nav/usersteam.svg) no-repeat;
+  height: 2vw;
+  width: 2vw;
+  background-size: cover;
+  display: inline-block;
+  vertical-align: bottom;
+  margin-right: 0.78vw;
+  margin-left: 0.25vw;  
+}
+.sidenav a:nth-of-type(6)::before{
+  content: '';
+  background: url(../img/nav/filmrev.svg) no-repeat;
+  height: 2vw;
+  width: 2vw;
+  background-size: cover;
+  display: inline-block;
+  vertical-align: bottom;
+  margin-right: 0.78vw;
+  margin-left: 0.25vw;  
+}
+.sidenav a:nth-of-type(7)::before{
+  content: '';
+  background: url(../img/nav/squarecotact.svg) no-repeat;
+  height: 2vw;
+  width: 2vw;
+  background-size: cover;
+  display: inline-block;
+  vertical-align: bottom;
+  margin-right: 0.78vw;
+  margin-left: 0.25vw;  
+}
+/*****ФОРМАТ СТОРІНКИ ДО 768РХ****/
+
+@media screen and (max-width: 768px) {
+  .sidenav{    
+    text-align: center;    
+    }
+    .sidenav a:nth-of-type(7) span{
+    display: none;
+    }
+    .sidenav a:nth-of-type(6) span{
+    display: none;
+    }
+    .sidenav a:nth-of-type(5) span{
+    display: none;
+    }
+    .sidenav a:nth-of-type(4) span{
+    display: none;
+    }
+    .sidenav a:nth-of-type(3) span{
+    display: none;
+    }
+    .sidenav a:nth-of-type(2) span{
+    display: none;
+    }
+  .sidenav a{
+    padding: 8px 8px 8px 12px;
+  }
+  .servback{
+    display: none;
+  }
+  .columserv1, .columserv2{
+    width: 40vw;        
+    height: 75vw;
+
+  }
+  .columserv1{
+    margin-left: 10vw;
+
+  }
+  .columserv2{
+    margin-right: 10vw;
+
+  }
+  .HairStylingCard, .ShaveCard, .BeardCard, .StreigCard {
+    height: 40vw;
+    box-sizing: border-box;
+  }
+
+  
+  div.colum1, div.colum2, div.colum3, div.colum4, div.resol992 {
+    display: none;
+  }
+
+  /**Анімація карток галереї 768**/
+  
+  div.resol768{
+    text-align: center;
+    margin: 0 auto;
+  }
+  div.resol768 > div > img{
+    background-size: contain;
+    padding: 0;
+    margin: 0;
+  }
+  .imgresol768{
+    animation: cardposition9 2s 1;
+    position: relative;
+    animation-delay: 1s;  
+    animation-fill-mode: both;
+  
+  }
+  @keyframes cardposition9 {
+    from,  
+    to{    
+    }
+    0%{
+      transform: translatex(-100vw) translatey(0);
+    }
+    100%{
+      transform: translatex(0) translatey(0);    
+    }  
+  }
+
+  .imgreso2768{
+    animation: cardposition10 2s 1;
+    position: relative;
+    animation-delay: 2s;
+    animation-fill-mode: both;  
+  }
+  @keyframes cardposition10 {
+    from,
+    to{    
+    }
+    0%{
+      transform: translatex(100vw) translatey(0);
+    }
+    100%{
+      transform: translatex(0) translatey(0);    
+    }  
+  }
+  }
+  .imgresol768{
+    animation: cardposition9 2s 1;
+    position: relative;
+    animation-delay: 1s;  
+    animation-fill-mode: both;
+  
+  }
+  @keyframes cardposition9 {
+    from,  
+    to{    
+    }
+    0%{
+      transform: translatex(-100vw) translatey(0);
+    }
+    100%{
+      transform: translatex(0) translatey(0);    
+    }  
+  }
+
+  .imgreso2768{
+    animation: cardposition10 2s 1;
+    position: relative;
+    animation-delay: 2s;
+    animation-fill-mode: both;  
+  }
+  @keyframes cardposition10 {
+    from,
+    to{    
+    }
+    0%{
+      transform: translatex(100vw) translatey(0);
+    }
+    100%{
+      transform: translatex(0) translatey(0);    
+    }  
+  }
+  .imgreso3768{
+    animation: cardposition11 2s 1;
+    position: relative;
+    animation-delay: 3s;  
+    animation-fill-mode: both;
+  
+  }
+  @keyframes cardposition11 {
+    from,  
+    to{    
+    }
+    0%{
+      transform: translatex(-100vw) translatey(0);
+    }
+    100%{
+      transform: translatex(0) translatey(0);    
+    }  
+  }
+
+  .imgreso4768{
+    animation: cardposition12 2s 1;
+    position: relative;
+    animation-delay: 4s;
+    animation-fill-mode: both;  
+  }
+  @keyframes cardposition12 {
+    from,
+    to{    
+    }
+    0%{
+      transform: translatex(100vw) translatey(0);
+    }
+    100%{
+      transform: translatex(0) translatey(0);    
+    }  
+  }
+  .imgreso5768{
+    animation: cardposition13 2s 1;
+    position: relative;
+    animation-delay: 5s;  
+    animation-fill-mode: both;
+  
+  }
+  @keyframes cardposition13 {
+    from,  
+    to{    
+    }
+    0%{
+      transform: translatex(-100vw) translatey(0);
+    }
+    100%{
+      transform: translatex(0) translatey(0);    
+    }  
+  }
+
+  .imgreso6768{
+    animation: cardposition14 2s 1;
+    position: relative;
+    animation-delay: 6s;
+    animation-fill-mode: both;  
+  }
+  @keyframes cardposition14 {
+    from,
+    to{    
+    }
+    0%{
+      transform: translatex(100vw) translatey(0);
+    }
+    100%{
+      transform: translatex(0) translatey(0);    
+    }  
+  }
+
+  /**Анімація карток галереї 992**/
+
+  @media screen and (min-width: 768px) and (max-width: 992px) {
+    div.resol992{
+      text-align: center;
+      margin: 0 auto;
+    }
+    div.resol992 > div > img{
+    background-size: contain;
+    padding: 0;
+    margin: 0;
+    }
+    div.resol768, div.colum1, div.colum2, div.colum3, div.colum4{
+      display: none;
+    }
+    img.galeryimg1, img.galeryimg6, img.galeryimg11, img.galeryimg5, img.galeryimg3, img.galeryimg10 {
+      padding: 0;
+      margin: 0;
+    }
+    div.resol992 > div {
+      display: flex;      
+      justify-content: space-between;
+    }
+    div.resol992 > div > div {
+      padding-left: 2vw;
+    }
+
+    .imgresol992{
+      animation: cardposition190 2s 1;
+      position: relative;
+      animation-delay: 1s;  
+      animation-fill-mode: both;
+    
+    }
+    @keyframes cardposition190 {
+      from,  
+      to{    
+      }
+      0%{
+        transform: translatex(-100vw) translatey(0);
+      }
+      100%{
+        transform: translatex(0) translatey(0);    
+      }  
+    }
+  
+    .imgreso2992{
+      animation: cardposition110 2s 1;
+      position: relative;
+      animation-delay: 1s;
+      animation-fill-mode: both;  
+    }
+    @keyframes cardposition110 {
+      from,
+      to{    
+      }
+      0%{
+        transform: translatex(100vw) translatey(0);
+      }
+      100%{
+        transform: translatex(0) translatey(0);    
+      }  
+    }
+    .imgreso3992{
+      animation: cardposition190 2s 1;
+      position: relative;
+      animation-delay: 2s;  
+      animation-fill-mode: both;
+    
+    }
+    @keyframes cardposition190 {
+      from,  
+      to{    
+      }
+      0%{
+        transform: translatex(-100vw) translatey(0);
+      }
+      100%{
+        transform: translatex(0) translatey(0);    
+      }  
+    }
+  
+    .imgreso4992{
+      animation: cardposition110 2s 1;
+      position: relative;
+      animation-delay: 2s;
+      animation-fill-mode: both;  
+    }
+    @keyframes cardposition110 {
+      from,
+      to{    
+      }
+      0%{
+        transform: translatex(100vw) translatey(0);
+      }
+      100%{
+        transform: translatex(0) translatey(0);    
+      }  
+    }
+    .imgreso5992{
+      animation: cardposition190 2s 1;
+      position: relative;
+      animation-delay: 3s;  
+      animation-fill-mode: both;
+    
+    }
+    @keyframes cardposition190 {
+      from,  
+      to{    
+      }
+      0%{
+        transform: translatex(-100vw) translatey(0);
+      }
+      100%{
+        transform: translatex(0) translatey(0);    
+      }  
+    }
+  
+    .imgreso6992{
+      animation: cardposition110 2s 1;
+      position: relative;
+      animation-delay: 3s;
+      animation-fill-mode: both;  
+    }
+    @keyframes cardposition110 {
+      from,
+      to{    
+      }
+      0%{
+        transform: translatex(100vw) translatey(0);
+      }
+      100%{
+        transform: translatex(0) translatey(0);    
+      }  
+    }
+
+  }
+
+
+  /**Анімація по колу 768**/
+
+@media screen and (max-width: 768px){
+
+  .HairStylingCard{
+    animation: round1 10s infinite;
+    position: relative;
+  }
+    @keyframes round1 {
+    from,
+    to{
+      
+    }
+    25%{    
+      transform: translatex(43vw) translatey(0);
+    }
+    50%{
+      transform: translatex(43vw) translatey(40vw);
+    }
+    75%{
+      transform: translatex(0) translatey(40vw);    
+    }
+    100%{
+      transform: translatex(0) translatey(0);    
+    }
+    
+  }
+  .ShaveCard{
+    animation: round2 10s infinite;
+    position: relative;
+  }
+  @keyframes round2 {
+    from,
+    to{
+      
+    }
+    25%{    
+      transform: translatex(0) translatey(-40vw);
+    }
+    50%{
+      transform: translatex(45vw) translatey(-40vw);
+    }
+    75%{
+      transform: translatex(45vw) translatey(0);    
+    }
+    100%{
+      transform: translatex(0) translatey(0);    
+    }
+    
+  }
+  .BeardCard{
+    animation: round3 10s infinite;
+    position: relative;
+  }
+  @keyframes round3 {
+    from,
+    to{
+      
+    }
+    25%{    
+      transform: translatex(0) translatey(40vw);
+    }
+    50%{
+      transform: translatex(-45vw) translatey(40vw);
+    }
+      
+    75%{
+      transform: translatex(-45vw) translatey(0);    
+    }
+    100%{
+      transform: translatex(0) translatey(0);    
+    }  
+  
+  }
+  .StreigCard{
+    animation: round4 10s infinite;
+    position: relative;
+  }
+  @keyframes round4 {
+    from,
+    to{
+      
+    }
+    25%{    
+      transform: translatex(-45vw) translatey(0);
+    }
+    50%{
+      transform: translatex(-45vw) translatey(-40vw);
+    }
+    75%{
+      transform: translatex(0) translatey(-40vw);    
+    }
+    100%{
+      transform: translatex(0) translatey(0);    
+    }
+    
+  }
+}
+
+/**Анімація по колу 768-992**/
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+
+  div.columserv1{
+    position: relative;
+    left: 20vw;
+    bottom: 20vw;
+  }
+  div.columserv2{
+    position: relative;
+    left: 45vw;
+    bottom: -5vw;
+  }
+
+  .HairStylingCard{
+    animation: round1 10s infinite;
+    position: relative;
+  }
+    @keyframes round1 {
+    from,
+    to{
+      
+    }
+    25%{    
+      transform: translatex(30vw) translatey(0);
+    }
+    50%{
+      transform: translatex(30vw) translatey(30vw);
+    }
+    75%{
+      transform: translatex(0) translatey(30vw);    
+    }
+    100%{
+      transform: translatex(0) translatey(0);    
+    }
+    
+  }
+  .ShaveCard{
+    animation: round2 10s infinite;
+    position: relative;
+  }
+  @keyframes round2 {
+    from,
+    to{
+      
+    }
+    25%{    
+      transform: translatex(0) translatey(-30vw);
+    }
+    50%{
+      transform: translatex(30vw) translatey(-30vw);
+    }
+    75%{
+      transform: translatex(30vw) translatey(0);    
+    }
+    100%{
+      transform: translatex(0) translatey(0);    
+    }
+    
+  }
+  .BeardCard{
+    animation: round3 10s infinite;
+    position: relative;
+  }
+  @keyframes round3 {
+    from,
+    to{
+      
+    }
+    25%{    
+      transform: translatex(0) translatey(30vw);
+    }
+    50%{
+      transform: translatex(-27vw) translatey(30vw);
+    }
+      
+    75%{
+      transform: translatex(-27vw) translatey(0);    
+    }
+    100%{
+      transform: translatex(0) translatey(0);    
+    }  
+  
+  }
+  .StreigCard{
+    animation: round4 10s infinite;
+    position: relative;
+  }
+  @keyframes round4 {
+    from,
+    to{
+      
+    }
+    25%{    
+      transform: translatex(-27vw) translatey(0);
+    }
+    50%{
+      transform: translatex(-27vw) translatey(-30vw);
+    }
+    75%{
+      transform: translatex(0) translatey(-30vw);    
+    }
+    100%{
+      transform: translatex(0) translatey(0);    
+    }
+    
+  }
+}
+
+/*****ФОРМАТ СТОРІНКИ ДО 768РХ****/
+
+@media screen and (max-width: 768px) {
+  section.team div{
+  display: flex;
+  justify-content: space-between;  
+  flex-direction: column;
+  text-align: center;
+  margin: 1vw auto;
+  }
+  section.team{
+    margin: 0;
+    padding: 0;
+  }
+  section.team > div:first-of-type{
+    width: 80vw;
+    margin: auto;
+    padding-top: 4vw;
+  }
+  .masters:after{
+    height: 100%;
+  }
+  .masters:nth-last-of-type(1):active::after{
+    padding: 0;
+    margin: 0;    
+    height: 20%;
+    width: 100%;    
+    top: 80%; left: 0;
+    border-end-end-radius: 8vw;
+    border-end-start-radius: 8vw;
+    font-size: 8vw;
+    font-weight: 500;
+    padding-top: 10vw;
+    box-sizing: border-box;      
+  }
+  .masters:nth-last-of-type(2):active::after{
+    padding: 0;
+    margin: 0;    
+    height: 20%;    
+    top: 80%; left: 0;
+    width: 100%;
+    border-end-end-radius: 8vw;
+    border-end-start-radius: 8vw;
+    font-size: 8vw;
+    font-weight: 500;
+    padding-top: 10vw;
+    box-sizing: border-box;     
+  }
+  .masters:nth-last-of-type(3):active::after{
+    padding: 0;
+    margin: 0;    
+    height: 20%;    
+    top: 80%; left: 0;
+    width: 100%;
+    border-end-end-radius: 8vw;
+    border-end-start-radius: 8vw;
+    font-size: 8vw;
+    font-weight: 500;
+    padding-top: 10vw;
+    box-sizing: border-box;     
+  }
+  .masters:nth-last-of-type(4):active::after{
+    padding: 0;
+    margin: 0;    
+    height: 20%;    
+    top: 80%; left: 0;
+    width: 100%;
+    border-end-end-radius: 8vw;
+    border-end-start-radius: 8vw;
+    font-size: 8vw;
+    font-weight: 500;
+    padding-top: 10vw;
+    box-sizing: border-box;     
+  }
+  section.contactus div.cont{
+    flex-direction: column-reverse;
+  }
+  section.contactus div:first-of-type{
+    width: 30vw;
+  }
+  section.contactus > div > div:last-of-type{
+    width: 85vw;
+    height: 85vw;
+  }
+  footer{
+    margin-top: 10vw;
+  }
+  div.sidenav{
+    width: 10vw;
+  }
+
+  .masters img{
+    height: 90vh;
+    width: auto;
+  }
+  .masters:after{
+    height: 90vh;
+    width: 100%;
+    border-radius: 8vw;
+  }
+
+  section.contactus div:first-of-type {
+    width: 80vw;
+    margin-top: 2vw;
+  }
+
+  .contactform{
+    width: 85vw;
+  }
+  
+  element.style {
+  }
+  .sel1{
+    width: 10%;
+  }
+  .namelinein {  
+    width: 35vw;  
+  }
+
+  .sel2{
+    width: 10%;
+  }
+  .emaillinein {  
+  width: 35vw;  
+  }
+  .messagelinein {
+    height: 15vw
+  }
+}
+
+/*****ФОРМАТ СТОРІНКИ ДО 768-992 РХ****/
+  
+@media screen and (min-width: 768px) and (max-width: 992px){
+  div.vidth992 > div:first-of-type{
+    position: relative;
+    top: 38vw;
+    left: 24vw;    
+  }
+  div.vidth992 > div:last-of-type{
+    position: relative;
+    top: 38vw;
+    left: -24vw;
+  }
+  .masters:nth-last-of-type(1):hover::after{
+    content: "James";
+    width: 20.8vw;
+    height: 22%;
+    position: absolute;
+    top: 73%; left: 0;  
+    border-radius: 2vw;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    overflow: hidden;
+    background-color: rgba(163, 83, 10, 0.7);
+    transition: all 2s;
+    color: #FFFAFA;
+    font-size: 2.5vw;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 2.5vw;
+    box-sizing: border-box;
+  }
+  .masters:nth-last-of-type(2):hover::after {
+    content: "Ryan";
+    width: 20.8vw;
+    height: 22%;
+    position: absolute;
+    top: 73%; left: 0;  
+    border-radius: 2vw;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    overflow: hidden;
+    background-color: rgba(163, 83, 10, 0.7);
+    transition: all 2s;
+    color: #FFFAFA;
+    font-size: 2.5vw;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 2.5vw;
+    box-sizing: border-box;
+  }
+  .masters:nth-last-of-type(3):hover:after {
+    content: "Jason";
+    width: 20.8vw;
+    height: 22%;
+    position: absolute;
+    top: 73%; left: 0;  
+    border-radius: 2vw;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    overflow: hidden;
+    background-color: rgba(163, 83, 10, 0.7);
+    transition: all 2s;
+    color: #FFFAFA;
+    font-size: 2.5vw;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 2.5vw;
+    box-sizing: border-box;
+  }
+  .masters:nth-last-of-type(4):hover::after {
+    content: "Meredith";
+    width: 20.8vw;
+    height: 22%;
+    position: absolute;
+    top: 73%; left: 0;  
+    border-radius: 2vw;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    overflow: hidden;
+    background-color: rgba(163, 83, 10, 0.7);
+    transition: all 2s;
+    color: #FFFAFA;
+    font-size: 2.5vw;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 2.5vw;
+    box-sizing: border-box;
+  }
+  section.contactus{
+    margin-top: 40vw;
+  }
+  section.contactus div.cont{
+    flex-direction: column;
+  }
+  section.contactus div:first-of-type{
+    width: 30vw;
+  }
+  section.contactus > div > div:last-of-type{
+    width: 85vw;
+    height: 85vw;
+    margin-top: 3vw;
+  }
+  div.sidenav{
+    width: 17vw;
+  } 
+  .contactform{
+    width: 85vw;
+  }  
+  .sel1{
+    width: 10%;
+  }
+  .namelinein {  
+    width: 35vw;  
+  }
+
+  .sel2{
+    width: 10%;
+  }
+  .emaillinein {  
+    width: 35vw;  
+  }
+  .messagelinein {
+    height: 15vw
+  } 
+  section.contactus div:first-of-type {
+    width: 80vw;
+    margin-top: 2vw;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+  .servises{
+    flex-direction: column-reverse;
+  }
+  div.servback{
+    width: 100%;
+    margin: 0;
+  }  
+}
+
+@media screen and (min-width: 992px) {
+  .sidenav, .navmenu, div.resol992, div.resol768 {
+    display: none;    
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .topline {
+    display: none;
+  }
+  .navmenu{
+    font-style:normal;
+    padding-right: 4vw;
+  }  
+}
+
+  
+
+

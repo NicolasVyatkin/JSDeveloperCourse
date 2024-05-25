@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inter:wght@400;700&family=Marcellus+SC&family=PT+Sans:wght@400;700&family=Poppins:wght@400;600;700&family=Public+Sans:wght@400;500;700&family=Roboto:wght@700&family=Rosario:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Work+Sans:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style/style.css">
+
+  <title>HW 7-8</title>
+</head>
+<body>
+  <header class="heading_top">    
+      <a href="./index.html" class="logo"></a>
+      <ul>      
+        <li class="topline"><a href="#ap">Appointment</a></li>
+        <li class="topline"><a href="#gal">Gallery</a></li>
+        <li class="topline"><a href="#serv">Services</a></li>
+        <li class="topline"><a href="#tm">Team</a></li>
+        <li class="topline"><a href="#rev">Reviews</a></li>
+        <li class="topline"><a href="#cont">Contact</a></li>
+        <span class="navmenu" style="font-size:4.5vw;cursor:pointer" onclick="openNav()">&#9776; </span>
+      </ul>      
+  </header>  
+    <main>
+      <section id="gal" class="gallery">
+        <div class="colum1">
+          <img class="galeryimg1"src="../img/Card1Left.png" alt="Card1Leftwashere">
+        </div>
+        <div class="colum2">
+          <img class="galeryimg10" src="../img/Card2Left.png" alt="Card2Leftwashere">
+          <img class="galeryimg11" src="../img/Card3Left.png" alt="Card3Leftwashere">
+        </div>
+        <div class="colum3">
+          <img class="galeryimg5" src="../img/Card2right.png" alt="Card2Righttwashere">
+          <img class="galeryimg3" src="../img/Card3Right.png" alt="Card3Rightwashere">
+        </div>
+        <div class="colum4">
+          <img class="galeryimg6" src="../img/Card1Right.png" alt="Card1Rightwashere">
+        </div>
+        <!--768-->
+        <div class="resol768">
+          <div class="imgresol768"><img class="galeryimg1"src="../img/Card1Left.png" alt="Card1Leftwashere"></div>
+          <div class="imgreso2768"><img class="galeryimg10" src="../img/Card2Left.png" alt="Card2Leftwashere"></div>
+          <div class="imgreso3768"><img class="galeryimg11" src="../img/Card3Left.png" alt="Card3Leftwashere"></div>
+          <div class="imgreso4768"><img class="galeryimg5" src="../img/Card2right.png" alt="Card2Righttwashere"></div>
+          <div class="imgreso5768"><img class="galeryimg3" src="../img/Card3Right.png" alt="Card3Rightwashere"></div>
+          <div class="imgreso6768"><img class="galeryimg6" src="../img/Card1Right.png" alt="Card1Rightwashere"></div>
+        </div>
+        <!--992-->
+        <div class="resol992">
+          <div>
+            <div class="imgresol992"><img class="galeryimg1"src="../img/Card1Left.png" alt="Card1Leftwashere"></div>            
+            <div class="imgreso2992"><img class="galeryimg6" src="../img/Card1Right.png" alt="Card1Rightwashere"></div>
+          </div>
+          <div>          
+            
+            <div class="imgreso3992"><img class="galeryimg10" src="../img/Card2Left.png" alt="Card2Leftwashere"></div>
+            <div class="imgreso4992"><img class="galeryimg5" src="../img/Card2right.png" alt="Card2Righttwashere"></div>            
+          </div>
+          <div>
+            <div class="imgreso5992"><img class="galeryimg3" src="../img/Card3Right.png" alt="Card3Rightwashere"></div>            
+            <div class="imgreso6992"><img class="galeryimg11" src="../img/Card3Left.png" alt="Card3Leftwashere"></div>
+          </div>
+        </div>
+      </section>
+      <section id="serv" class="servises">        
+          <div class="columserv1">
+            <div class="HairStylingCard">
+              <img src="../img/HairStylingCard.svg" alt="HairStylingCard">
+              <div>Hair Styling</div>
+            </div>  
+            <div class="ShaveCard">
+              <img src="../img/ShaveCard.svg" alt="ShaveCard">
+              <div>Smooth Shave</div>
+            </div>
+          </div>  
+          <div class="columserv2">          
+            <div class="BeardCard">
+              <img src="../img/BeardCard.svg" alt="BeardCard">
+              <div>Beard Trimming</div>
+            </div>          
+            <div class="StreigCard">
+            <img src="../img/StreigCard.svg" alt="StreigCard">
+            <div>Hair Straightening</div>
+            </div>
+          </div>             
+          <div class="servback"></div>
+        <!--992-->          
+      </section>
+      <section class="team">
+        <div id="tm">Meet Our Highly Skilled Experts</div>
+        <div class="vidth992">           
+          <div class="masters"><img class="galeryimg2" src="../img/MeredithCard.svg" alt="MeredithCardwashere"></div>
+          <div class="masters"><img class="galeryimg2" src="../img/JasonCard.svg" alt="JasonCardwashere"></div>
+          <div class="masters"><img class="galeryimg2" src="../img/RyanCard.svg" alt="RyanCardwashere"></div>
+          <div class="masters"><img class="galeryimg2" src="../img/JamesCard.svg" alt="JamesCardwashere"></div>
+        </div>        
+      </section>
+      <section class="contactus">
+        <div class="cont">
+          <div class="contactfor">
+            <div>Get in touch with Us and send a Message</div>
+            <table id="rev" class="contactform">
+              <tbody>
+                <tr>
+                  <td class="sel1">
+                    <label class="name" for="nameline"></label>
+                    <input class="namelinein" placeholder="Name" type="text" id="nameline">
+                  </td>
+                  <td class="sel2">
+                    <label class="email" for="emailline"></label>
+                    <input class="emaillinein" placeholder="Email" type="email" id="emailline">
+                  </td>
+                </tr>
+                <tr>
+                  <td class="sel3" colspan="2">
+                    <textarea class="messagelinein" placeholder="Message"></textarea>                    
+                  </td>                  
+                </tr>
+              </tbody>              
+            </table>
+          </div>
+          
+          <div id="ap" class="map">
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d9248.942222416123!2d77.63538834293443!3d12.926917414590719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1suk!2sua!4v1652623810342!5m2!1suk!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </section>      
+    </main>
+
+    <footer>
+      <div id="cont" class="contacts">
+        <div>
+          <ul>
+            <li class="email"><a href="mailto:kumarpratiyush1405@gmail.com" target="_blank">Email : kumarpratiyush1405@gmail.com</a></li>
+            <li class="tel" ><a href="tel:+(972) 723429834">Phone : +(972) 723429834</a></li>
+            <li>Headquarters : 836th Avenue, 3rd Floor,</li>
+            <li>New York,</li>
+            <li>New York</li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li>Opening Hours</li>
+            <li>-</li>
+            <li>Monday - Friday : 10:00 am - 05:00 pm</li>
+            <li>Saturday : 10:00 am - 02:00 pm</li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li>Connect With Us On</li>
+            <li class="inst"><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+            <li class="face"><a href="https://uk-ua.facebook.com/" target="_blank">Facebook</a></li>
+            <li class="twit"><a href="https://twitter.com/?lang=uk" target="_blank">Twitter</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <!--НАВІГАЦІЙНЕ МЕНЮ-->
+
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#ap"><span>Appointment</span></a>
+      <a href="#gal"><span>Gallery</span></a>
+      <a href="#serv"><span>Services</span></a>
+      <a href="#tm"><span>Team</span></a>
+      <a href="#rev"><span>Reviews</span></a>
+      <a href="#cont"><span>Contact</span></a>
+
+    </div>
+    
+    <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "10vw";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+    </script>
+  
+</body>
+</html>
