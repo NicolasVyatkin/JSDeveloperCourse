@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inter:wght@400;700&family=Marcellus+SC&family=PT+Sans:wght@400;700&family=Poppins:wght@400;600;700&family=Public+Sans:wght@400;500;700&family=Roboto:wght@700&family=Work+Sans:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style/style.css">
+  <title>HW№6 04.05.22</title>
+</head>
+<body>
+  <header class="header">Intake Main Flow
+  </header>
+  
+  <main>
+    <div class="mandatory"><span class="coloredstar">* </span>Mandatory field</div>
+    <div class="info">Information</div>
+    <form>
+      <div class="fields">
+        <p class="colum">
+          <label class="headingblock" for="IntakeType">Intake Type<span class="coloredstar">* (select)</span></label>
+          <input class="chooseline1" placeholder="Referral" required type="text" id="IntakeType" list="IntakeList">
+          <datalist id="IntakeList">
+            <option value="Referral"></option>
+            <option value="Intake one"></option>
+            <option value="Intake two"></option>
+            <option value="Intake three"></option>
+          </datalist>
+        </p>
+        <p class="colum">
+          <label class="headingblock" for="EID">Enrollment Initiation Date (Optional)</label>
+          <input class="chooseline4" type="date" id="EID" value="2021-11-05" readonly>
+        </p> 
+      </div>
+      <div class="fields">
+        <p class="colum">
+          <label class="headingblock" for="phone">Phone</label>
+          <input class="chooseline2" class="phone" required type="tel">          
+        </p>
+        <p class="colum">
+          <label class="headingblock" for="ApplCat">Application Category<span class="coloredstar">*</span></label>
+          <input class="chooseline1" value="Child Support" required type="text" id="ApplCat" list="ChildSupport">
+          <datalist id="ChildSupport">
+            <option value="Yes"></option>
+            <option value="No"></option>            
+          </datalist>
+      </div>
+      <div class="fields">
+        <p class="colum">
+          <label class="headingblock" for="IntakeType">email</label>
+          <input class="chooseline2" type="email">          
+        </p>
+        <p class="colum">
+          <label class="headingblock" for="EID">Enrollment Submission Date (Optional)</label>
+          <input class="chooseline4" type="date" id="EID" value="2021-11-05" readonly>
+        </p> 
+      </div>
+    </div>
+    <div class="fields">
+      <p class="colum">
+        <label class="headingblock" for="AplReg">Application Registration (Optional)</label>
+        <input class="chooseline1" value="APP0000116" type="text" id="AplReg" list="AplRegOpt">
+        <datalist id="AplRegOpt">
+          <option value="APP0000116"></option>
+          <option value="APP0000117"></option>
+          <option value="APP0000118"></option>
+          <option value="APP0000119"></option>
+        </datalist>          
+      </p>      
+    </div>
+    <div class="fields">
+      <p class="colum">
+        <label class="headingblock" for="AdditInfo">Additional Information Requested Date (Optional)</label>
+        <input class="chooseline2" type="date" id="AdditInfo" value="2021-12-05">          
+      </p>
+      <p class="colum-check1">        
+        <label class="headingblock-check" for="Purged">Purged</label>
+        <input class="chooseline-check" type="checkbox" id="Purged">        
+      </p>
+    </div>
+    <div class="fields">
+      <p class="colum">
+        <label class="RemeinDays" for="EID">Remaining Days Before Referral is Purged (Optional)</label>
+        <input class="chooseline2" value="13" type="text" id="RemeinDays">
+      </p> 
+      <p class="colum">
+        <label class="headingblock" for="ExemptFrom">Exempt from Paternity (Optional)   (select)</label>
+        <input class="chooseline1" value="No" type="text" id="ExemptFrom" list="ExemptFromList">
+        <datalist id="ExemptFromList">
+          <option value="Yes"></option>
+          <option value="No"></option>          
+        </datalist>          
+      </p>            
+    </div>
+    <div class="fields">
+      <p class="colum">
+        <label class="headingblock" for="FeePDate">Fee Payment Date (Optional)</label>
+        <input class="chooseline2" type="date" id="FeePDate" value="2021-12-05">
+      </p>
+      <p class="colum">
+        <label class="headingblock" for="EnrolStatys">Enrollment Status (Optional)</label>
+        <input class="chooseline1" value="Worklisted" type="text" id="EnrolStatys" list="EnrolStatysList">
+        <datalist id="EnrolStatysList">
+          <option value="Worklisted"></option>
+          <option value="Not worklisted"></option>          
+        </datalist>
+    </div>
+    <div class="fields">
+      <p class="colum-check">        
+        <label class="headingblock-check" for="ApplFee">Application Fee Processed</label>
+        <input class="chooseline-check" checked type="checkbox" id="ApplFee">        
+      </p>
+    </div>
+    <div>
+      <hr class="line">
+    </div>         
+    </form>
+    <form>
+      <div class="info">Maternity Information</div>
+      <div class="fields">
+        <p class="colum-check">        
+          <label class="headingblock-check1" for="ChildSupServ">Are you requesting child support services for an
+            unborn child?</label>
+          <input class="chooseline-check" type="checkbox" id="ChildSupServ">        
+        </p>        
+        <p class="colum">
+          <label class="headingblock" for="BioPrent">Other known biological parent? (Optional)</label>
+          <input class="chooseline1" value="None" type="text" id="BioPrent" list="BioPrentList">
+          <datalist id="BioPrentList">
+            <option value="None"></option>
+            <option value="Active"></option>          
+          </datalist>
+        </p>  
+      </div>
+        <div>        
+         <hr class="line">
+        </div>
+      </div>
+    </form>
+    <form>
+      <div class="info">Official Use</div>
+      <div class="fields">
+        <p class="colum">
+          <label class="headingblock" for="CaseCat">Case Category (Optional)</label>
+          <input class="chooseline1" value="Active IV-A" type="text" id="CaseCat" list="CaseCatList">
+          <datalist id="CaseCatList">
+            <option value="Active IV-A"></option>
+            <option value="Active IV-B"></option>          
+          </datalist>          
+        </p>     
+        <p class="colum">
+          <label class="headingblock" for="Indicator">IV-D Indicator<span class="coloredstar">*</span></label>
+          <input class="chooseline1" value="Non-IV-D" type="text" id="Indicator" list="IndicatorList">
+          <datalist id="IndicatorList">
+            <option value="Yes"></option>
+            <option value="No"></option>          
+          </datalist>          
+        </p>            
+      </div>
+      <div class="fields">
+        <p class="colum">
+          <label class="headingblock" for="ArrearsOnly">Arrears Only Indicator (Optional)</label>
+          <input class="chooseline1" placeholder="None" type="text" id="ArrearsOnly" list="ArrearsOnlyList">
+          <datalist id="ArrearsOnlyList">
+            <option value="None"></option>
+            <option value="Active"></option>          
+          </datalist>          
+        </p>     
+        <p class="colum">
+          <label class="headingblock" for="InterCase">Intergovernmental Case Category (Optional)</label>
+          <input class="chooseline1" placeholder="None" type="text" id="InterCase" list="InterCaseList">
+          <datalist id="InterCaseList">
+            <option value="None"></option>
+            <option value="Active"></option>          
+          </datalist>          
+        </p>            
+      </div>
+      <div class="fields">
+        <p class="colum">
+          <label class="headingblock" for="AssistCounty">Assigned County of Ownership (Optional)</label>
+          <input class="chooseline1" placeholder="None" type="text" id="AssistCounty" list="AssistCountyList">
+          <datalist id="AssistCountyList">
+            <option value="None"></option>
+            <option value="Active"></option>          
+          </datalist>          
+        </p>     
+        <p class="colum">
+          <label class="headingblock" for="InterCaseType">Intergovernmental Case Type (Optional)</label>
+          <input class="chooseline1" placeholder="None" type="text" id="InterCaseType" list="InterCaseTypeList">
+          <datalist id="InterCaseTypeList">
+            <option value="None"></option>
+            <option value="Active"></option>          
+          </datalist>          
+        </p>            
+      </div>
+      <div class="fields">
+        <p class="colum">
+          <label class="headingblock" for="InterCaseStat">Intergovermental Case Status (Optional)</label>
+          <input class="chooseline1" placeholder="None" type="text" id="InterCaseStat" list="InterCaseStatList">
+          <datalist id="InterCaseStatList">
+            <option value="None"></option>
+            <option value="Active"></option>          
+          </datalist>          
+        </p>     
+        <p class="colum">
+          <label class="headingblock" for="CaseNumber">Case Number</label>
+          <input class="chooseline3" placeholder="Search Case Number" type="search" id="CaseNumber" list="CaseNumberList">
+          <datalist id="CaseNumberList">
+            <option value="1"></option>
+            <option value="2"></option>
+            <option value="3"></option>
+            <option value="4"></option>
+          </datalist>          
+        </p>            
+      </div>
+      <div class="fields">
+        <p class="colum">
+          <label class="headingblock" for="SpesialHand">Special Handling Indicator for Applicant (Optional)</label>
+          <input class="chooseline1" placeholder="None" type="text" id="SpesialHand" list="SpesialHandList">
+          <datalist id="SpesialHandList">
+            <option value="None"></option>
+            <option value="Active"></option>          
+          </datalist>          
+        </p>     
+        <p class="colum">
+          <label class="headingblock" for="RefNumber">Referral Number</label>
+          <input class="chooseline3" placeholder="Search Referral Number" type="search" id="RefNumber" list="RefNumberList">
+          <datalist id="RefNumberList">
+            <option value="11"></option>
+            <option value="21"></option>
+            <option value="31"></option>
+            <option value="41"></option>
+          </datalist>          
+        </p>            
+      </div>
+      <div class="fields">
+        <p class="colum">
+          <label class="headingblock" for="SpesialHandInd">Special Handling Indicator for Other Parent (Optional)</label>
+          <input class="chooseline1" placeholder="None" type="text" id="SpesialHandInd" list="SpesialHandIndList">
+          <datalist id="SpesialHandIndList">
+            <option value="None"></option>
+            <option value="Active"></option>          
+          </datalist>          
+        </p>             
+      </div>
+      <div>
+        <hr class="line">
+      </div>  
+    </form>
+    <form>
+      <div class="info">System Information</div>
+      <div class="fields">      
+        <p class="colum">
+          <label class="headingblock" for="EnrolTakenUser">Enrollment Taken by User (Optional)</label>
+          <input class="chooseline3" value="Search Input" type="search" id="EnrolTakenUser" list="EnrolTakenUserList">
+          <datalist id="CaseNumberList">
+            <option value="101"></option>
+            <option value="102"></option>
+            <option value="103"></option>
+            <option value="104"></option>
+          </datalist>          
+        </p>
+        <p class="colum">
+          <label class="headingblock" for="IntSuper">Intake Supervisor (Optional)</label>
+          <input class="chooseline3" placeholder="Search" type="search" id="IntSuper" list="IntSuperList">
+          <datalist id="IntSuperList">
+            <option value="First"></option>
+            <option value="Second"></option>
+            <option value="Third"></option>
+            <option value="Forth"></option>
+          </datalist>          
+        </p>
+      </div>
+      <div class="fields">      
+        <p class="colum">
+          <label class="headingblock" for="worker">Worker (Optional)</label>
+          <input class="chooseline3" value="Search Input" type="search" id="worker" list="workerList">
+          <datalist id="workerList">
+            <option value="Worker"></option>
+            <option value="Not a worker"></option>            
+          </datalist>          
+        </p>
+        <p class="colum">
+          <label class="headingblock" for="Ovner">Owner (Optional)</label>
+          <input class="chooseline3" value="Rajaneesh Banal" type="search" id="Ovner" list="OvnerList">
+          <datalist id="OvnerList">
+            <option value="Owner"></option>
+            <option value="Not an Owner"></option>            
+          </datalist>          
+        </p>
+      </div>
+      <div>
+        <hr class="line">
+      </div>
+    </form>
+    <form>
+      <button class="button">Next</button>
+    </form>
+  </main>
+  
+</body>
+</html>

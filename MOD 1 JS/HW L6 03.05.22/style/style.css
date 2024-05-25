@@ -1,0 +1,196 @@
+html{
+  font-size: 10px;
+}
+body{
+  background-color: #F9F9F9;
+  min-width: 700px;
+  max-width: 1000px;
+  margin: 0;
+  padding: 0;  
+}
+header{
+  padding-top: 64px;
+  padding-left: 48px;
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 700;
+  font-size: 2.4rem;
+  color: #171717;
+}
+.mandatory{
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: #171717;
+  padding-top: 79px;
+  padding-left: 43px;
+  font-family: 'Public Sans', sans-serif;
+}
+.coloredstar{
+  color: red;
+}
+.info{  
+  padding-left: 43px;
+  padding-top: 24px;
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #171717;
+}
+.fields{
+  display: flex;
+  flex-direction:row;  
+  padding-left: 43px;
+  padding-right: 45px;
+  font-size: 1.6rem;
+  font-weight: 500;
+  font-family: 'Public Sans', sans-serif;
+  color: #171717;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+.colum{  
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-family: 'Public Sans', sans-serif;
+  color: #171717;
+  min-width: 392px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0;
+}
+.chooseline1{  
+  background-image: url(../img/Group.svg);  
+  background-repeat: no-repeat;
+  background-position: 95% 50%;
+  margin-top: 8px;
+  min-width: 392px;
+  max-width: 392px;
+  box-sizing: border-box;
+  min-height: 40px;
+  padding-right: 25px;
+  border: 1px solid #ADADAD;
+  border-radius: 4px;
+  padding-left: 2%;
+  font-weight: 400;
+  font-size: 1.6rem;
+  font-family: 'Public Sans', sans-serif;
+}
+.chooseline2{
+  margin-top: 8px;
+  min-width: 392px;
+  max-width: 392px;
+  box-sizing: border-box;
+  min-height: 40px;
+  padding-right: 25px;
+  border: 1px solid #ADADAD;
+  border-radius: 4px;
+  padding-left: 2%;
+  font-weight: 400;
+  font-size: 1.6rem;
+  font-family: 'Public Sans', sans-serif;
+}
+.chooseline3{  
+  background-image: url(../img/Group2.svg);   
+  background-repeat: no-repeat;
+  background-position: 95% 50%;
+  margin-top: 8px;
+  min-width: 392px;
+  max-width: 392px;
+  box-sizing: border-box;
+  min-height: 40px;
+  padding-right: 25px;
+  border: 1px solid #ADADAD;
+  border-radius: 4px;
+  padding-left: 2%;
+  font-weight: 400;
+  font-size: 1.6rem;
+  font-family: 'Public Sans', sans-serif;   
+}
+.chooseline4{  
+  background-image: url(../img/Group3.svg);   
+  background-repeat: no-repeat;
+  background-position: 95% 50%;
+  margin-top: 8px;
+  min-width: 392px;
+  max-width: 392px;
+  box-sizing: border-box;
+  min-height: 40px;
+  padding-right: 25px;
+  border: 1px solid #ADADAD;
+  border-radius: 4px;
+  padding-left: 2%;
+  background-color: #EFEFEF;
+  font-weight: 400;
+  font-size: 1.6rem;
+  font-family: 'Public Sans', sans-serif;
+  color: #747474;     
+}
+.headingblock{    
+  min-width: 392px;
+  max-width: 392px;
+  box-sizing: border-box;  
+}
+.colum-check{
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-family: 'Public Sans', sans-serif;
+  color: #171717;  
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: 0;  
+  align-items: center;
+}
+.colum-check1{
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-family: 'Public Sans', sans-serif;
+  color: #171717;  
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: 0;  
+  align-items: center;
+  padding-right: 310px;
+}
+.headingblock-check{
+  display: flex;
+}
+.headingblock-check1{
+  display: flex;
+  min-width: 355px;
+  max-width: 355px;
+}
+.chooseline-check{
+  margin-top: 8px;  
+  box-sizing: border-box;
+  min-height: 40px;
+  min-width: 24px;
+}
+.line {
+  margin-left: 45px;
+  margin-right: 45px;
+  margin-top: 48px;
+  color: #D1D1D1;
+  height: 0.1rem;
+}
+.chooseline1:hover,.chooseline2:hover,.chooseline3:hover {
+  background-image: none;  
+}
+.button{
+  width: 75px;
+  height: 40px;
+  background-color: #0050D8;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-family: 'Public Sans', sans-serif;
+  font-size: 1.6rem;
+  margin-top: 16px;
+  margin-right: 45px;
+  margin-bottom: 110px;
+  border-radius: 4px;   
+  display: block;
+  margin-left: 88%;
+}
+#Ovner, #AplReg{
+  color: #0050D8;
+}
+
