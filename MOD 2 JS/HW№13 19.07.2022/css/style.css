@@ -1,0 +1,50 @@
+body {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: whitesmoke;
+	color: slateblue;
+}
+.card {
+	padding: 10px;
+	border: 2px solid goldenrod;
+	box-shadow: 0 0 10px red;
+	border-radius: 25px;
+	width: 20vw;
+	margin: 20px;
+}
+.card_saved {
+	border: 2px solid greenyellow;
+	box-shadow: 0 0 20px goldenrod;
+	transition: all 3s;
+}
+
+.title {
+	font-size: 2rem;
+	margin-bottom: 10px;
+	text-align: center;
+	font-style: italic;
+}
+
+.info,
+.birth,
+.gender,
+.height,
+.skin,
+.birth,
+.hair,
+.mass {
+	color: black;
+	font-size: 1.5rem;
+}
+
+.save {
+	background: gray;
+	border-radius: 5px;
+	color: black;
+	cursor: pointer;
+	width: 20vw;	
+}
+.saved {
+	background: green;
+	transition: all 3s;
+}
