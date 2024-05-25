@@ -1,0 +1,141 @@
+:root{
+  font-size: 10px;
+  font-family: 'Work Sans', sans-serif;
+  width: 755px;
+}
+.cv{
+  background-color: #FFB084; 
+  display: grid;  
+  border-radius: 20px;
+  gap: 20px; 
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 20px);
+}
+div.cv > div {
+  background-color: white;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  box-sizing: border-box;
+
+}
+div.cv > div:nth-child(1) {
+  box-shadow: 7px 7px 0px black;
+  border-radius: 20px;
+  width: 250px;  
+  margin-left: 41px;
+  margin-top: 27px;
+  grid-column-start: 1;
+  grid-column-end: 12;
+  grid-row-start: 1;
+  grid-row-end: 10;  
+}
+div.cv > div:nth-child(2) {
+  box-shadow: 7px 7px 0px black;
+  border-radius: 20px;
+  width: 250px;
+  margin-left: 41px;
+  grid-column-start: 1;
+  grid-column-end: 12;
+  grid-row-start: 10;
+  grid-row-end: 12;
+    
+}
+div.cv > div:nth-child(3) {
+  box-shadow: 7px 7px 0px black;
+  border-radius: 20px;    
+  margin-top: 27px;
+  grid-column-start: 6;
+  grid-column-end: 12;
+  grid-row-start: 1;
+  grid-row-end: 5; 
+  width: 100%;
+}
+div.cv > div:nth-child(4) {
+  box-shadow: 7px 7px 0px green;
+  border-radius: 20px;
+  width: 45%;
+  grid-column-start: 6;
+  grid-column-end: 12;
+  grid-row-start: 5;
+  grid-row-end: 8;  
+}
+div.cv > div:nth-child(5) {
+  box-shadow: 7px 7px 0px red;
+  border-radius: 20px;
+  width: 190px;
+  grid-column-start: 9;
+  grid-column-end: 12;
+  grid-row-start: 5;
+  grid-row-end: 10;  
+}
+div.cv > div:nth-child(6) {
+  box-shadow: 7px 7px 0px #3675B0;
+  border-radius: 20px;
+  width: 45%;
+  grid-column-start: 6;
+  grid-column-end: 12;
+  grid-row-start: 8;
+  grid-row-end: 12;   
+}
+div.cv > div:nth-child(7) {
+  box-shadow: 7px 7px 0px black;
+  border-radius: 20px;
+  width: 190px;
+  grid-column-start: 9;
+  grid-column-end: 12;
+  grid-row-start: 10;
+  grid-row-end: 12;
+}
+div.cv > div> div:first-of-type{
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+div.cv > div.card5> div:first-of-type{
+  font-weight: 700;
+  color: red;
+  font-size: 1.4rem;
+}
+div.cv > div.card4> div:first-of-type{
+  font-weight: 700;
+  color: green;
+  font-size: 1.4rem;
+}
+div.cv > div.card1> div:first-of-type{  
+  font-size: 2.4rem;
+}
+div.card2{  
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+div.card1 ul{
+  list-style: none;
+  font-size: 1.2rem;
+  line-height: 2.6rem;
+  padding-left: 5px;
+}
+div.card4 ul, div.card5 ul, div.card6 ul, div.card7 ul{
+  font-size: 1.4rem;
+  font-weight: 400;
+  padding-left: 5px;
+}
+div.card3 div:last-child{
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+.textbold{
+  font-weight: 600;
+}
+div.card7 ul{
+  margin-top: 0;
+}
+div.card1 img{
+  margin-top: 15px;
+  padding-left: 25%;
+}
+div.cv > div:hover{
+  transform: scale(1.05);
+  transition: all 1s;
+  box-shadow: 4px 4px 10px greenyellow;
+}
