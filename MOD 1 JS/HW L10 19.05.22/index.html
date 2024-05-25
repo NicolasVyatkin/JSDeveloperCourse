@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inter:wght@400;700&family=Marcellus+SC&family=Montserrat:wght@500;700;800&family=PT+Sans:wght@400;700&family=Poppins:wght@400;600;700&family=Public+Sans:wght@400;500;700&family=Roboto:wght@700&family=Rosario:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Work+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../HW L10 19.05.22/css/style.css">
+  <title>HW №10 Bootstrap</title>
+</head>
+<body>
+  <!--Навігаційне меню 1 -->
+  <nav id="tuz" class="navbar navbar-expand-lg navbar-light bg-light mx-2">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img src="../HW L10 19.05.22/img/orno logo 1.svg" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <form class="d-flex w-50">
+          <input class="nav-search form-control mx-5" type="search" placeholder="Вкажіть Ваше місто..." aria-label="Search">
+          <!--<button class="btn btn-outline-success" type="submit">Search</button>-->
+        </form>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <button class="btn btn-green btn-success ms-5" type="submit">Увійти</button>
+          </li>
+          <li class="nav-item">
+            <button class="btn btn-red btn-warning ms-2" type="submit">Кошик</button>
+          </li>          
+        </ul>        
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="mb-4 pt-4">Макдональдз</h2>
+      </div>
+    </div>
+  </div>
+  
+  <!--Навігаційне меню 2 -->
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <a href="#act" class="btn btn-naw btn-lg mx-2">Акції</a>
+        <a href="#burg" class="btn btn-naw btn-lg mx-2">Бургери</a>
+        <a href="#chick" class="btn btn-naw btn-lg mx-2">Курка</a>
+        <a href="#" class="btn btn-naw btn-lg mx-2">Десерти</a>
+        <a href="#" class="btn btn-naw btn-lg mx-2">Напої</a>
+        <a href="#" class="btn btn-naw btn-lg mx-2">Соуси</a>
+      </div>
+    </div>
+  </div>      
+
+
+
+  <!---АКЦІЇ--->
+  <div id="act" class="container">
+    <div class="row">
+      <div class="col-12">
+        <h3 class="mb-4 pt-4">Акції</h3>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div class="card h-80 shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
+          <img src="../HW L10 19.05.22/img/pic.svg" class="card-img-top" alt="card1">
+          <div class="card-body">
+            <h5 class="card-title">Біг Тейсті</h5>
+            <p class="card-text">Сендвіч с великим, рубленим біфштексом</p>
+            <div class="about">
+              <h5 class="card-bye">80 грн.</h5>
+              <svg class="heart" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12.0118 20.6669C12.009 20.6686 12.0062 20.6702 12.0033 20.6719C11.9999 20.6699 11.9964 20.6678 11.993 20.6658C11.6741 20.4774 11.2161 20.1999 10.6654 19.8462C9.56206 19.1376 8.09621 18.1297 6.63532 16.9279C5.1695 15.722 3.73847 14.3451 2.68148 12.9034C1.61629 11.4504 1 10.026 1 8.70412C1 5.6511 3.47496 3.1761 6.52802 3.1761V3.17613L6.53582 3.17607C8.40135 3.16152 10.1454 4.09983 11.1613 5.6646L11.9951 6.94902L12.8359 5.66908C13.8602 4.10949 15.6024 3.17199 17.4683 3.17609C20.5165 3.1916 22.9839 5.65853 23 8.7066C22.9992 10.0546 22.3805 11.4911 21.3177 12.945C20.2615 14.3899 18.8315 15.763 17.3666 16.9623C15.9065 18.1576 14.4414 19.1562 13.3386 19.8571C12.7882 20.207 12.3305 20.4811 12.0118 20.6669Z" stroke="black" stroke-width="2"/>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div class="card h-80 shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
+          <img src="../HW L10 19.05.22/img/pic (1).svg" class="card-img-top" alt="card2">
+          <div class="card-body">
+            <h5 class="card-title">Ролли</h5>
+            <p class="card-text">Свіжі ролли, 3 штуки. Закручений зі смаком!</p>
+            <div class="about">
+            <h5 class="card-bye">110 грн.</h5>
+              <svg class="heart" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12.0118 20.6669C12.009 20.6686 12.0062 20.6702 12.0033 20.6719C11.9999 20.6699 11.9964 20.6678 11.993 20.6658C11.6741 20.4774 11.2161 20.1999 10.6654 19.8462C9.56206 19.1376 8.09621 18.1297 6.63532 16.9279C5.1695 15.722 3.73847 14.3451 2.68148 12.9034C1.61629 11.4504 1 10.026 1 8.70412C1 5.6511 3.47496 3.1761 6.52802 3.1761V3.17613L6.53582 3.17607C8.40135 3.16152 10.1454 4.09983 11.1613 5.6646L11.9951 6.94902L12.8359 5.66908C13.8602 4.10949 15.6024 3.17199 17.4683 3.17609C20.5165 3.1916 22.9839 5.65853 23 8.7066C22.9992 10.0546 22.3805 11.4911 21.3177 12.945C20.2615 14.3899 18.8315 15.763 17.3666 16.9623C15.9065 18.1576 14.4414 19.1562 13.3386 19.8571C12.7882 20.207 12.3305 20.4811 12.0118 20.6669Z" stroke="black" stroke-width="2"/>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div class="card h-80 shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
+          <img src="../HW L10 19.05.22/img/pic (2).svg" class="card-img-top" alt="card3">
+          <div class="card-body">
+            <h5 class="card-title">Біг Мак меню</h5>
+            <p class="card-text">Біг мак, середня картопля, кола</p>
+            <div class="about">
+              <h5 class="card-bye">180 грн.</h5>
+              <svg class="heart" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12.0118 20.6669C12.009 20.6686 12.0062 20.6702 12.0033 20.6719C11.9999 20.6699 11.9964 20.6678 11.993 20.6658C11.6741 20.4774 11.2161 20.1999 10.6654 19.8462C9.56206 19.1376 8.09621 18.1297 6.63532 16.9279C5.1695 15.722 3.73847 14.3451 2.68148 12.9034C1.61629 11.4504 1 10.026 1 8.70412C1 5.6511 3.47496 3.1761 6.52802 3.1761V3.17613L6.53582 3.17607C8.40135 3.16152 10.1454 4.09983 11.1613 5.6646L11.9951 6.94902L12.8359 5.66908C13.8602 4.10949 15.6024 3.17199 17.4683 3.17609C20.5165 3.1916 22.9839 5.65853 23 8.7066C22.9992 10.0546 22.3805 11.4911 21.3177 12.945C20.2615 14.3899 18.8315 15.763 17.3666 16.9623C15.9065 18.1576 14.4414 19.1562 13.3386 19.8571C12.7882 20.207 12.3305 20.4811 12.0118 20.6669Z" stroke="black" stroke-width="2"/>
+              </svg>
+            </div>  
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div class="card h-80 shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
+          <img src="../HW L10 19.05.22/img/pic.svg" class="card-img-top" alt="card1">
+          <div class="card-body">
+            <h5 class="card-title">Біг Тейсті</h5>
+            <p class="card-text">Сендвіч с великим, рубленим біфштексом</p>
+            <div class="about">
+              <h5 class="card-bye">80 грн.</h5>
+              <svg class="heart" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12.0118 20.6669C12.009 20.6686 12.0062 20.6702 12.0033 20.6719C11.9999 20.6699 11.9964 20.6678 11.993 20.6658C11.6741 20.4774 11.2161 20.1999 10.6654 19.8462C9.56206 19.1376 8.09621 18.1297 6.63532 16.9279C5.1695 15.722 3.73847 14.3451 2.68148 12.9034C1.61629 11.4504 1 10.026 1 8.70412C1 5.6511 3.47496 3.1761 6.52802 3.1761V3.17613L6.53582 3.17607C8.40135 3.16152 10.1454 4.09983 11.1613 5.6646L11.9951 6.94902L12.8359 5.66908C13.8602 4.10949 15.6024 3.17199 17.4683 3.17609C20.5165 3.1916 22.9839 5.65853 23 8.7066C22.9992 10.0546 22.3805 11.4911 21.3177 12.945C20.2615 14.3899 18.8315 15.763 17.3666 16.9623C15.9065 18.1576 14.4414 19.1562 13.3386 19.8571C12.7882 20.207 12.3305 20.4811 12.0118 20.6669Z" stroke="black" stroke-width="2"/>
+              </svg>
+            </div>  
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div class="card h-80 shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
+          <img src="../HW L10 19.05.22/img/pic (1).svg" class="card-img-top" alt="card2">
+          <div class="card-body">
+            <h5 class="card-title">Ролли</h5>
+            <p class="card-text">Свіжі ролли, 3 штуки. Закручений зі смаком!</p>
+            <div class="about">
+              <h5 class="card-bye">110 грн.</h5>
+              <svg class="heart" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12.0118 20.6669C12.009 20.6686 12.0062 20.6702 12.0033 20.6719C11.9999 20.6699 11.9964 20.6678 11.993 20.6658C11.6741 20.4774 11.2161 20.1999 10.6654 19.8462C9.56206 19.1376 8.09621 18.1297 6.63532 16.9279C5.1695 15.722 3.73847 14.3451 2.68148 12.9034C1.61629 11.4504 1 10.026 1 8.70412C1 5.6511 3.47496 3.1761 6.52802 3.1761V3.17613L6.53582 3.17607C8.40135 3.16152 10.1454 4.09983 11.1613 5.6646L11.9951 6.94902L12.8359 5.66908C13.8602 4.10949 15.6024 3.17199 17.4683 3.17609C20.5165 3.1916 22.9839 5.65853 23 8.7066C22.9992 10.0546 22.3805 11.4911 21.3177 12.945C20.2615 14.3899 18.8315 15.763 17.3666 16.9623C15.9065 18.1576 14.4414 19.1562 13.3386 19.8571C12.7882 20.207 12.3305 20.4811 12.0118 20.6669Z" stroke="black" stroke-width="2"/>
+              </svg>
+            </div>  
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div class="card h-80 shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
+          <img src="../HW L10 19.05.22/img/pic (2).svg" class="card-img-top" alt="card3">
+          <div class="card-body">
+            <h5 class="card-title">Біг Мак меню</h5>
+            <p class="card-text">Біг мак, середня картопля, кола</p>
+            <div class="about">
+              <h5 class="card-bye">180 грн.</h5>
+              <svg class="heart" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12.0118 20.6669C12.009 20.6686 12.0062 20.6702 12.0033 20.6719C11.9999 20.6699 11.9964 20.6678 11.993 20.6658C11.6741 20.4774 11.2161 20.1999 10.6654 19.8462C9.56206 19.1376 8.09621 18.1297 6.63532 16.9279C5.1695 15.722 3.73847 14.3451 2.68148 12.9034C1.61629 11.4504 1 10.026 1 8.70412C1 5.6511 3.47496 3.1761 6.52802 3.1761V3.17613L6.53582 3.17607C8.40135 3.16152 10.1454 4.09983 11.1613 5.6646L11.9951 6.94902L12.8359 5.66908C13.8602 4.10949 15.6024 3.17199 17.4683 3.17609C20.5165 3.1916 22.9839 5.65853 23 8.7066C22.9992 10.0546 22.3805 11.4911 21.3177 12.945C20.2615 14.3899 18.8315 15.763 17.3666 16.9623C15.9065 18.1576 14.4414 19.1562 13.3386 19.8571C12.7882 20.207 12.3305 20.4811 12.0118 20.6669Z" stroke="black" stroke-width="2"/>
+              </svg>
+            </div>  
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!---Бургери--->
+  <div id="burg" class="container">
+    <div class="row">
+      <div class="col-12">
+        <h3 class="mb-4">Бургери</h3>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div class="card h-80 shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
+          <img src="../HW L10 19.05.22/img/pic (2).svg" class="card-img-top" alt="card3">
+          <div class="card-body">
+            <h5 class="card-title">Біг Мак меню</h5>
+            <p class="card-text">Біг мак, середня картопля, кола</p>
+            <div class="about">
+              <h5 class="card-bye">180 грн.</h5>
+              <svg class="heart" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12.0118 20.6669C12.009 20.6686 12.0062 20.6702 12.0033 20.6719C11.9999 20.6699 11.9964 20.6678 11.993 20.6658C11.6741 20.4774 11.2161 20.1999 10.6654 19.8462C9.56206 19.1376 8.09621 18.1297 6.63532 16.9279C5.1695 15.722 3.73847 14.3451 2.68148 12.9034C1.61629 11.4504 1 10.026 1 8.70412C1 5.6511 3.47496 3.1761 6.52802 3.1761V3.17613L6.53582 3.17607C8.40135 3.16152 10.1454 4.09983 11.1613 5.6646L11.9951 6.94902L12.8359 5.66908C13.8602 4.10949 15.6024 3.17199 17.4683 3.17609C20.5165 3.1916 22.9839 5.65853 23 8.7066C22.9992 10.0546 22.3805 11.4911 21.3177 12.945C20.2615 14.3899 18.8315 15.763 17.3666 16.9623C15.9065 18.1576 14.4414 19.1562 13.3386 19.8571C12.7882 20.207 12.3305 20.4811 12.0118 20.6669Z" stroke="black" stroke-width="2"/>
+              </svg>
+            </div>  
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div class="card h-80 shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
+          <img src="../HW L10 19.05.22/img/pic.svg" class="card-img-top" alt="card1">
+          <div class="card-body">
+            <h5 class="card-title">Біг Тейсті</h5>
+            <p class="card-text">Сендвіч с великим, рубленим біфштексом</p>
+            <div class="about">
+              <h5 class="card-bye">80 грн.</h5>
+              <svg class="heart" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12.0118 20.6669C12.009 20.6686 12.0062 20.6702 12.0033 20.6719C11.9999 20.6699 11.9964 20.6678 11.993 20.6658C11.6741 20.4774 11.2161 20.1999 10.6654 19.8462C9.56206 19.1376 8.09621 18.1297 6.63532 16.9279C5.1695 15.722 3.73847 14.3451 2.68148 12.9034C1.61629 11.4504 1 10.026 1 8.70412C1 5.6511 3.47496 3.1761 6.52802 3.1761V3.17613L6.53582 3.17607C8.40135 3.16152 10.1454 4.09983 11.1613 5.6646L11.9951 6.94902L12.8359 5.66908C13.8602 4.10949 15.6024 3.17199 17.4683 3.17609C20.5165 3.1916 22.9839 5.65853 23 8.7066C22.9992 10.0546 22.3805 11.4911 21.3177 12.945C20.2615 14.3899 18.8315 15.763 17.3666 16.9623C15.9065 18.1576 14.4414 19.1562 13.3386 19.8571C12.7882 20.207 12.3305 20.4811 12.0118 20.6669Z" stroke="black" stroke-width="2"/>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div class="card h-80 shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
+          <img src="../HW L10 19.05.22/img/pic (1).svg" class="card-img-top" alt="card2">
+          <div class="card-body">
+            <h5 class="card-title">Ролли</h5>
+            <p class="card-text">Свіжі ролли, 3 штуки. Закручений зі смаком!</p>
+            <div class="about">
+              <h5 class="card-bye">110 грн.</h5>
+                <svg class="heart" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12.0118 20.6669C12.009 20.6686 12.0062 20.6702 12.0033 20.6719C11.9999 20.6699 11.9964 20.6678 11.993 20.6658C11.6741 20.4774 11.2161 20.1999 10.6654 19.8462C9.56206 19.1376 8.09621 18.1297 6.63532 16.9279C5.1695 15.722 3.73847 14.3451 2.68148 12.9034C1.61629 11.4504 1 10.026 1 8.70412C1 5.6511 3.47496 3.1761 6.52802 3.1761V3.17613L6.53582 3.17607C8.40135 3.16152 10.1454 4.09983 11.1613 5.6646L11.9951 6.94902L12.8359 5.66908C13.8602 4.10949 15.6024 3.17199 17.4683 3.17609C20.5165 3.1916 22.9839 5.65853 23 8.7066C22.9992 10.0546 22.3805 11.4911 21.3177 12.945C20.2615 14.3899 18.8315 15.763 17.3666 16.9623C15.9065 18.1576 14.4414 19.1562 13.3386 19.8571C12.7882 20.207 12.3305 20.4811 12.0118 20.6669Z" stroke="black" stroke-width="2"/>
+                </svg>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div class="card h-80 shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
+          <img src="../HW L10 19.05.22/img/pic (1).svg" class="card-img-top" alt="card2">
+          <div class="card-body">
+            <h5 class="card-title">Ролли</h5>
+            <p class="card-text">Свіжі ролли, 3 штуки. Закручений зі смаком!</p>
+            <div class="about">
+              <h5 class="card-bye">110 грн.</h5>
+                <svg class="heart" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12.0118 20.6669C12.009 20.6686 12.0062 20.6702 12.0033 20.6719C11.9999 20.6699 11.9964 20.6678 11.993 20.6658C11.6741 20.4774 11.2161 20.1999 10.6654 19.8462C9.56206 19.1376 8.09621 18.1297 6.63532 16.9279C5.1695 15.722 3.73847 14.3451 2.68148 12.9034C1.61629 11.4504 1 10.026 1 8.70412C1 5.6511 3.47496 3.1761 6.52802 3.1761V3.17613L6.53582 3.17607C8.40135 3.16152 10.1454 4.09983 11.1613 5.6646L11.9951 6.94902L12.8359 5.66908C13.8602 4.10949 15.6024 3.17199 17.4683 3.17609C20.5165 3.1916 22.9839 5.65853 23 8.7066C22.9992 10.0546 22.3805 11.4911 21.3177 12.945C20.2615 14.3899 18.8315 15.763 17.3666 16.9623C15.9065 18.1576 14.4414 19.1562 13.3386 19.8571C12.7882 20.207 12.3305 20.4811 12.0118 20.6669Z" stroke="black" stroke-width="2"/>
+                </svg>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div class="card h-80 shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
+          <img src="../HW L10 19.05.22/img/pic.svg" class="card-img-top" alt="card1">
+          <div class="card-body">
+            <h5 class="card-title">Біг Тейсті</h5>
+            <p class="card-text">Сендвіч с великим, рубленим біфштексом</p>
+            <div class="about">
+              <h5 class="card-bye">80 грн.</h5>
+              <svg class="heart" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12.0118 20.6669C12.009 20.6686 12.0062 20.6702 12.0033 20.6719C11.9999 20.6699 11.9964 20.6678 11.993 20.6658C11.6741 20.4774 11.2161 20.1999 10.6654 19.8462C9.56206 19.1376 8.09621 18.1297 6.63532 16.9279C5.1695 15.722 3.73847 14.3451 2.68148 12.9034C1.61629 11.4504 1 10.026 1 8.70412C1 5.6511 3.47496 3.1761 6.52802 3.1761V3.17613L6.53582 3.17607C8.40135 3.16152 10.1454 4.09983 11.1613 5.6646L11.9951 6.94902L12.8359 5.66908C13.8602 4.10949 15.6024 3.17199 17.4683 3.17609C20.5165 3.1916 22.9839 5.65853 23 8.7066C22.9992 10.0546 22.3805 11.4911 21.3177 12.945C20.2615 14.3899 18.8315 15.763 17.3666 16.9623C15.9065 18.1576 14.4414 19.1562 13.3386 19.8571C12.7882 20.207 12.3305 20.4811 12.0118 20.6669Z" stroke="black" stroke-width="2"/>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div class="card h-80 shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
+          <img src="../HW L10 19.05.22/img/pic (2).svg" class="card-img-top" alt="card3">
+          <div class="card-body">
+            <h5 class="card-title">Біг Мак меню</h5>
+            <p class="card-text">Біг мак, середня картопля, кола</p>
+            <div class="about">
+              <h5 class="card-bye">180 грн.</h5>
+              <svg class="heart" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12.0118 20.6669C12.009 20.6686 12.0062 20.6702 12.0033 20.6719C11.9999 20.6699 11.9964 20.6678 11.993 20.6658C11.6741 20.4774 11.2161 20.1999 10.6654 19.8462C9.56206 19.1376 8.09621 18.1297 6.63532 16.9279C5.1695 15.722 3.73847 14.3451 2.68148 12.9034C1.61629 11.4504 1 10.026 1 8.70412C1 5.6511 3.47496 3.1761 6.52802 3.1761V3.17613L6.53582 3.17607C8.40135 3.16152 10.1454 4.09983 11.1613 5.6646L11.9951 6.94902L12.8359 5.66908C13.8602 4.10949 15.6024 3.17199 17.4683 3.17609C20.5165 3.1916 22.9839 5.65853 23 8.7066C22.9992 10.0546 22.3805 11.4911 21.3177 12.945C20.2615 14.3899 18.8315 15.763 17.3666 16.9623C15.9065 18.1576 14.4414 19.1562 13.3386 19.8571C12.7882 20.207 12.3305 20.4811 12.0118 20.6669Z" stroke="black" stroke-width="2"/>
+              </svg>
+            </div>  
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!---Курка--->
+  <div id="chick" class="container">
+    <div class="row">
+      <div class="col-12">
+        <h3 class="mb-4">Курка</h3>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div class="card h-80 shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
+          <img src="../HW L10 19.05.22/img/pic.svg" class="card-img-top" alt="card1">
+          <div class="card-body">
+            <h5 class="card-title">Біг Тейсті</h5>
+            <p class="card-text">Сендвіч с великим, рубленим біфштексом</p>
+            <div class="about">
+              <h5 class="card-bye">80 грн.</h5>
+              <svg class="heart" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12.0118 20.6669C12.009 20.6686 12.0062 20.6702 12.0033 20.6719C11.9999 20.6699 11.9964 20.6678 11.993 20.6658C11.6741 20.4774 11.2161 20.1999 10.6654 19.8462C9.56206 19.1376 8.09621 18.1297 6.63532 16.9279C5.1695 15.722 3.73847 14.3451 2.68148 12.9034C1.61629 11.4504 1 10.026 1 8.70412C1 5.6511 3.47496 3.1761 6.52802 3.1761V3.17613L6.53582 3.17607C8.40135 3.16152 10.1454 4.09983 11.1613 5.6646L11.9951 6.94902L12.8359 5.66908C13.8602 4.10949 15.6024 3.17199 17.4683 3.17609C20.5165 3.1916 22.9839 5.65853 23 8.7066C22.9992 10.0546 22.3805 11.4911 21.3177 12.945C20.2615 14.3899 18.8315 15.763 17.3666 16.9623C15.9065 18.1576 14.4414 19.1562 13.3386 19.8571C12.7882 20.207 12.3305 20.4811 12.0118 20.6669Z" stroke="black" stroke-width="2"/>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div class="card h-80 shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
+          <img src="../HW L10 19.05.22/img/pic (1).svg" class="card-img-top" alt="card2">
+          <div class="card-body">
+            <h5 class="card-title">Ролли</h5>
+            <p class="card-text">Свіжі ролли, 3 штуки. Закручений зі смаком!</p>
+            <div class="about">
+              <h5 class="card-bye">110 грн.</h5>
+                <svg class="heart" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12.0118 20.6669C12.009 20.6686 12.0062 20.6702 12.0033 20.6719C11.9999 20.6699 11.9964 20.6678 11.993 20.6658C11.6741 20.4774 11.2161 20.1999 10.6654 19.8462C9.56206 19.1376 8.09621 18.1297 6.63532 16.9279C5.1695 15.722 3.73847 14.3451 2.68148 12.9034C1.61629 11.4504 1 10.026 1 8.70412C1 5.6511 3.47496 3.1761 6.52802 3.1761V3.17613L6.53582 3.17607C8.40135 3.16152 10.1454 4.09983 11.1613 5.6646L11.9951 6.94902L12.8359 5.66908C13.8602 4.10949 15.6024 3.17199 17.4683 3.17609C20.5165 3.1916 22.9839 5.65853 23 8.7066C22.9992 10.0546 22.3805 11.4911 21.3177 12.945C20.2615 14.3899 18.8315 15.763 17.3666 16.9623C15.9065 18.1576 14.4414 19.1562 13.3386 19.8571C12.7882 20.207 12.3305 20.4811 12.0118 20.6669Z" stroke="black" stroke-width="2"/>
+                </svg>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div class="card h-80 shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
+          <img src="../HW L10 19.05.22/img/pic (2).svg" class="card-img-top" alt="card3">
+          <div class="card-body">
+            <h5 class="card-title">Біг Мак меню</h5>
+            <p class="card-text">Біг мак, середня картопля, кола</p>
+            <div class="about">
+              <h5 class="card-bye">180 грн.</h5>
+              <svg class="heart" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12.0118 20.6669C12.009 20.6686 12.0062 20.6702 12.0033 20.6719C11.9999 20.6699 11.9964 20.6678 11.993 20.6658C11.6741 20.4774 11.2161 20.1999 10.6654 19.8462C9.56206 19.1376 8.09621 18.1297 6.63532 16.9279C5.1695 15.722 3.73847 14.3451 2.68148 12.9034C1.61629 11.4504 1 10.026 1 8.70412C1 5.6511 3.47496 3.1761 6.52802 3.1761V3.17613L6.53582 3.17607C8.40135 3.16152 10.1454 4.09983 11.1613 5.6646L11.9951 6.94902L12.8359 5.66908C13.8602 4.10949 15.6024 3.17199 17.4683 3.17609C20.5165 3.1916 22.9839 5.65853 23 8.7066C22.9992 10.0546 22.3805 11.4911 21.3177 12.945C20.2615 14.3899 18.8315 15.763 17.3666 16.9623C15.9065 18.1576 14.4414 19.1562 13.3386 19.8571C12.7882 20.207 12.3305 20.4811 12.0118 20.6669Z" stroke="black" stroke-width="2"/>
+              </svg>
+            </div>  
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div class="card h-80 shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
+          <img src="../HW L10 19.05.22/img/pic.svg" class="card-img-top" alt="card1">
+          <div class="card-body">
+            <h5 class="card-title">Біг Тейсті</h5>
+            <p class="card-text">Сендвіч с великим, рубленим біфштексом</p>
+            <div class="about">
+              <h5 class="card-bye">80 грн.</h5>
+              <svg class="heart" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12.0118 20.6669C12.009 20.6686 12.0062 20.6702 12.0033 20.6719C11.9999 20.6699 11.9964 20.6678 11.993 20.6658C11.6741 20.4774 11.2161 20.1999 10.6654 19.8462C9.56206 19.1376 8.09621 18.1297 6.63532 16.9279C5.1695 15.722 3.73847 14.3451 2.68148 12.9034C1.61629 11.4504 1 10.026 1 8.70412C1 5.6511 3.47496 3.1761 6.52802 3.1761V3.17613L6.53582 3.17607C8.40135 3.16152 10.1454 4.09983 11.1613 5.6646L11.9951 6.94902L12.8359 5.66908C13.8602 4.10949 15.6024 3.17199 17.4683 3.17609C20.5165 3.1916 22.9839 5.65853 23 8.7066C22.9992 10.0546 22.3805 11.4911 21.3177 12.945C20.2615 14.3899 18.8315 15.763 17.3666 16.9623C15.9065 18.1576 14.4414 19.1562 13.3386 19.8571C12.7882 20.207 12.3305 20.4811 12.0118 20.6669Z" stroke="black" stroke-width="2"/>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div class="card h-80 shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
+          <img src="../HW L10 19.05.22/img/pic (1).svg" class="card-img-top" alt="card2">
+          <div class="card-body">
+            <h5 class="card-title">Ролли</h5>
+            <p class="card-text">Свіжі ролли, 3 штуки. Закручений зі смаком!</p>
+            <div class="about">
+              <h5 class="card-bye">110 грн.</h5>
+                <svg class="heart" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12.0118 20.6669C12.009 20.6686 12.0062 20.6702 12.0033 20.6719C11.9999 20.6699 11.9964 20.6678 11.993 20.6658C11.6741 20.4774 11.2161 20.1999 10.6654 19.8462C9.56206 19.1376 8.09621 18.1297 6.63532 16.9279C5.1695 15.722 3.73847 14.3451 2.68148 12.9034C1.61629 11.4504 1 10.026 1 8.70412C1 5.6511 3.47496 3.1761 6.52802 3.1761V3.17613L6.53582 3.17607C8.40135 3.16152 10.1454 4.09983 11.1613 5.6646L11.9951 6.94902L12.8359 5.66908C13.8602 4.10949 15.6024 3.17199 17.4683 3.17609C20.5165 3.1916 22.9839 5.65853 23 8.7066C22.9992 10.0546 22.3805 11.4911 21.3177 12.945C20.2615 14.3899 18.8315 15.763 17.3666 16.9623C15.9065 18.1576 14.4414 19.1562 13.3386 19.8571C12.7882 20.207 12.3305 20.4811 12.0118 20.6669Z" stroke="black" stroke-width="2"/>
+                </svg>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div class="card h-80 shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
+          <img src="../HW L10 19.05.22/img/pic (2).svg" class="card-img-top" alt="card3">
+          <div class="card-body">
+            <h5 class="card-title">Біг Мак меню</h5>
+            <p class="card-text">Біг мак, середня картопля, кола</p>
+            <div class="about">
+              <h5 class="card-bye">180 грн.</h5>
+              <svg class="heart" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12.0118 20.6669C12.009 20.6686 12.0062 20.6702 12.0033 20.6719C11.9999 20.6699 11.9964 20.6678 11.993 20.6658C11.6741 20.4774 11.2161 20.1999 10.6654 19.8462C9.56206 19.1376 8.09621 18.1297 6.63532 16.9279C5.1695 15.722 3.73847 14.3451 2.68148 12.9034C1.61629 11.4504 1 10.026 1 8.70412C1 5.6511 3.47496 3.1761 6.52802 3.1761V3.17613L6.53582 3.17607C8.40135 3.16152 10.1454 4.09983 11.1613 5.6646L11.9951 6.94902L12.8359 5.66908C13.8602 4.10949 15.6024 3.17199 17.4683 3.17609C20.5165 3.1916 22.9839 5.65853 23 8.7066C22.9992 10.0546 22.3805 11.4911 21.3177 12.945C20.2615 14.3899 18.8315 15.763 17.3666 16.9623C15.9065 18.1576 14.4414 19.1562 13.3386 19.8571C12.7882 20.207 12.3305 20.4811 12.0118 20.6669Z" stroke="black" stroke-width="2"/>
+              </svg>
+            </div>  
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Ваше замовлення-->
+  <div class="card mb-3 mx-auto shadow p-3 mb-5 bg-white rounded" style="width: 25rem;">
+    <div class="card-body">
+      <h5 class="card-title">Ваше замовлення:</h5>
+      <div class="myorder">
+        <div>
+          <h5>Біг Мак меню</h5>
+          <ul>            
+            <li>Картопля фрі</li>
+            <li>Біг Мак</li>
+            <li>Кола</li>
+          </ul>
+        </div>      
+        <h5 class="amount">1</h5>
+        <h5 class="sum">120 ₴ </h5>        
+      </div>
+      <div class="myorder">   
+        <h5>Доставка</h5>
+        <h5>50 ₴ </h5>
+      </div>
+        <button type="button" class="btn-nav btn btn-warning btn-lg">Замовити 410 ₴</button>        
+      </div>      
+    </div>
+  </div>
+  
+  
+  
+  <!--Про партнера-->
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h4 class="card-title">Про партнера</h4>
+      </div>
+    </div>
+  </div>      
+  <div class="container p-3 mb-2 rounded-3 bg-white text-dark mt-3">
+    <div class="row">
+      <div class="col-12">        
+        <h5 class="card-title fw-normal">Робочі дні</h5>
+        <h5 class="card-title">Пн, вт, ср, чт, пт, сб, вс</h5>
+        <h5 class="card-title fw-normal">Час прийому замовлень</h5>
+        <h5 class="card-title">З 09:00 до 23:00</h5>
+        <h5 class="card-title fw-normal">Адреса</h5>
+        <h5 class="card-title">02140, м.Київ, ВУЛИЦЯ ГРИШКА, будинок 7</h5>
+        <h5 class="card-title fw-normal">Юридична інформація</h5>
+        <h5 class="card-title">ПІІ "МАКДОНАЛЬДЗ ЮКРЕЙН ЛТД"</h5>
+        <h5 class="card-title">ЄДРПОУ 23744453</h5>
+      </div>
+    </div>
+  </div>    
+  <div><a class="top" href="#tuz"></a></div>
+</body>
+</html>

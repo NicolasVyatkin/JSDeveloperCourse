@@ -1,0 +1,111 @@
+body{
+  background-color: #ECECEC;
+  /**font-family: 'Montserrat', sans-serif;**/
+}
+.btn-naw{
+  display: inline-block;
+  max-width: 150px;
+  margin: 0 auto;
+  padding: 8px 20px;
+  color: #7B7B7B; 
+}
+.btn-naw:hover{
+  color: black;
+  background-color: #7B7B7B;
+}
+.card-bye:hover::before{
+  content: 'В корзину';
+  color: white;
+  display: inline-block;
+  max-width: 150px;
+  margin: 0 auto;
+  padding: 9px 20px;
+  background-color: #FF6C01;
+  border-radius: 20px;
+  font-size: 12px; 
+}
+.card-bye:hover{
+  color: white;
+  font-size: 1px;
+  margin: 0;
+}
+.heart{
+  width: 24px;
+  height: 24px;
+  /**position: absolute;
+  left: 22vw;
+  bottom: 4vw;**/
+}
+svg.heart:hover path{
+  fill: #69A042;  
+}
+.about{
+  display: flex;
+  justify-content: space-between;
+}
+div.myorder{
+  display: flex;
+  justify-content: space-between;
+  
+  
+}
+.btn-nav{
+  background-color: #FF6C01;
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  width: 21rem;
+  height: 4rem;  
+}
+.amount{
+  width: 80px;
+  text-align: center;
+}
+.amount::before{
+  content: '-';
+  background-color: #FF6C01;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  /**background: url(../img/+.svg);**/
+  margin-right: 5px;
+  text-align: center;
+  display: inline-block;
+  color: white;  
+
+}
+.amount::after{
+  content: '+';
+  background-color: #FF6C01;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  /**background: url(../img/-.svg);**/
+  margin-left: 5px;
+  text-align: center;
+  overflow: visible;
+  display: inline-block;
+  color: white;
+
+}
+.btn-green{
+  color: white;
+  background-color: #FF6C01;
+}
+.btn-red{
+  color: white;
+  background-color: #00D008;
+}
+
+.top{
+  width: 5vw;
+  height: 5vw;
+  position: fixed;
+  top: 100vw;
+  left: 92vw;
+  z-index: 15;
+  background: url(../img/up.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
