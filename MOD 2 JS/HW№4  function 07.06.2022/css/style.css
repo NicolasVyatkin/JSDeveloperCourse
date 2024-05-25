@@ -1,0 +1,15 @@
+
+html {
+  font-size: 2vw;
+  font-weight: 500;
+  font-style: italic;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  padding-left: 5vw;
+  box-sizing: border-box;
+  width: 50vw;
+  text-align: center;
+  text-decoration: underline;
+  line-height: 3vw;
+}
+
